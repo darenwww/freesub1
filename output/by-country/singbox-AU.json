@@ -6,18 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 01 - zxdd",
+        "🇦🇺 澳大利亚 (Australia) 02 - zxdd",
+        "🇦🇺 澳大利亚 (Australia) 03 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 01 - zxdd",
+        "🇦🇺 澳大利亚 (Australia) 02 - zxdd",
+        "🇦🇺 澳大利亚 (Australia) 03 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },

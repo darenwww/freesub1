@@ -6,18 +6,24 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇿🇦 ZA 01 - xiaohe",
-        "🇿🇦 ZA 02 - xiaohe",
-        "🇿🇦 ZA 03 - xiaohe"
+        "🇿🇦 ZA 01 - zxdd",
+        "🇿🇦 ZA 02 - zxdd",
+        "🇿🇦 ZA 03 - zxdd",
+        "🇿🇦 ZA 04 - zxdd",
+        "🇿🇦 ZA 05 - zxdd",
+        "🇿🇦 ZA 06 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇿🇦 ZA 01 - xiaohe",
-        "🇿🇦 ZA 02 - xiaohe",
-        "🇿🇦 ZA 03 - xiaohe"
+        "🇿🇦 ZA 01 - zxdd",
+        "🇿🇦 ZA 02 - zxdd",
+        "🇿🇦 ZA 03 - zxdd",
+        "🇿🇦 ZA 04 - zxdd",
+        "🇿🇦 ZA 05 - zxdd",
+        "🇿🇦 ZA 06 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },
