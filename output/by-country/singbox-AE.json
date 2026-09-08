@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇪 阿联酋 (UAE) 01 - zxdd"
+        "🇦🇪 阿联酋 (UAE) 01 - zxdd",
+        "🇦🇪 阿联酋 (UAE) 02 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇪 阿联酋 (UAE) 01 - zxdd"
+        "🇦🇪 阿联酋 (UAE) 01 - zxdd",
+        "🇦🇪 阿联酋 (UAE) 02 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },

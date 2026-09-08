@@ -6,6 +6,27 @@ log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - zxdd
   type: vless
+  server: 163.8.195.241
+  port: 2087
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /29c8fed7ca22
+    headers:
+      Host: 163.8.195.241
+- name: 🇩🇪 德国 (Germany) 02 - zxdd
+  type: vless
+  server: 91.107.179.8
+  port: 15003
+  uuid: 69d8dc73-20ff-4241-bdd8-a9d6d07553b6
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 03 - zxdd
+  type: vless
   server: 94.156.232.254
   port: 443
   uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
@@ -18,36 +39,9 @@ proxies:
     path: /cdn/v3/live
     headers:
       Host: cf6.rumedia-cdn.com
-- name: 🇩🇪 德国 (Germany) 02 - zxdd
-  type: ss
-  server: 209.46.102.22
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: 1hhrqrokj3ag
-  udp: true
-- name: 🇩🇪 德国 (Germany) 03 - zxdd
-  type: vless
-  server: 163.8.195.241
-  port: 2087
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /29c8fed7ca22
-    headers:
-      Host: 163.8.195.241
 - name: 🇩🇪 德国 (Germany) 04 - zxdd
-  type: ss
-  server: 8.209.74.72
-  port: 20001
-  cipher: chacha20-ietf-poly1305
-  password: PWpjPo3tqhPN4yRZ
-  udp: true
-- name: 🇩🇪 德国 (Germany) 05 - zxdd
   type: vless
-  server: 91.107.190.63
+  server: 91.107.190.175
   port: 8080
   uuid: 11af1c47-865a-47c6-92ff-118013655d78
   udp: true
@@ -55,58 +49,10 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: 91.107.190.63
-- name: 🇩🇪 德国 (Germany) 06 - zxdd
-  type: vless
-  server: 94.156.232.254
-  port: 443
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf6.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf6.rumedia-cdn.com
-- name: 🇩🇪 德国 (Germany) 07 - zxdd
-  type: vless
-  server: 163.8.195.241
-  port: 2087
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /29c8fed7ca22
-    headers:
-      Host: 163.8.195.241
-- name: 🇩🇪 德国 (Germany) 08 - zxdd
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
     path: /
     headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: 🇩🇪 德国 (Germany) 09 - zxdd
-  type: ss
-  server: 2.58.81.221
-  port: 80
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
-  udp: true
-- name: 🇩🇪 德国 (Germany) 10 - zxdd
+      Host: 91.107.190.175
+- name: 🇩🇪 德国 (Germany) 05 - zxdd
   type: vless
   server: 35.157.240.237
   port: 443
@@ -120,6 +66,58 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
+- name: 🇩🇪 德国 (Germany) 06 - zxdd
+  type: vless
+  server: 151.242.17.99
+  port: 8443
+  uuid: a04814d9-d006-4e7b-ae20-8ab304b3b429
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 6Yskxg5U0WxPGtuCAAGH9uD57T4U8LeGrErTBNvIrwM
+  servername: de.emvservice.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 07 - zxdd
+  type: vless
+  server: 91.107.154.19
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 91.107.154.19
+- name: 🇩🇪 德国 (Germany) 08 - zxdd
+  type: ss
+  server: 209.46.102.22
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: 1hhrqrokj3ag
+  udp: true
+- name: 🇩🇪 德国 (Germany) 09 - zxdd
+  type: vless
+  server: 91.107.190.63
+  port: 8080
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 91.107.190.63
+- name: 🇩🇪 德国 (Germany) 10 - zxdd
+  type: ss
+  server: 2.58.81.221
+  port: 80
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
+  udp: true
 - name: 🇩🇪 德国 (Germany) 11 - zxdd
   type: vless
   server: 163.8.195.241
@@ -135,32 +133,90 @@ proxies:
       Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
 - name: 🇩🇪 德国 (Germany) 12 - zxdd
   type: vless
-  server: 91.107.154.19
-  port: 8080
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  server: 163.8.195.241
+  port: 2087
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /29c8fed7ca22
     headers:
-      Host: 91.107.154.19
+      Host: 163.8.195.241
 - name: 🇩🇪 德国 (Germany) 13 - zxdd
-  type: ss
-  server: 185.226.172.8
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
+  type: vless
+  server: 151.242.17.99
+  port: 8443
+  uuid: a04814d9-d006-4e7b-ae20-8ab304b3b429
   udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 6Yskxg5U0WxPGtuCAAGH9uD57T4U8LeGrErTBNvIrwM
+  servername: de.emvservice.com
+  client-fingerprint: chrome
 - name: 🇩🇪 德国 (Germany) 14 - zxdd
   type: ss
-  server: 51.195.126.38
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: 2YdE4lFOid5a
+  server: 213.202.208.199
+  port: 7001
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
   udp: true
 - name: 🇩🇪 德国 (Germany) 15 - zxdd
+  type: vmess
+  server: 82.198.246.97
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 16 - zxdd
+  type: vless
+  server: 94.156.232.254
+  port: 443
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf6.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf6.rumedia-cdn.com
+- name: 🇩🇪 德国 (Germany) 17 - zxdd
+  type: vless
+  server: 94.156.232.254
+  port: 443
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf6.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf6.rumedia-cdn.com
+- name: 🇩🇪 德国 (Germany) 18 - zxdd
+  type: ss
+  server: 8.209.74.72
+  port: 20001
+  cipher: chacha20-ietf-poly1305
+  password: PWpjPo3tqhPN4yRZ
+  udp: true
+- name: 🇩🇪 德国 (Germany) 19 - zxdd
+  type: vless
+  server: 91.107.179.8
+  port: 15003
+  uuid: 69d8dc73-20ff-4241-bdd8-a9d6d07553b6
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 20 - zxdd
   type: vless
   server: 81.95.4.189
   port: 443
@@ -174,23 +230,16 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
-- name: 🇩🇪 德国 (Germany) 16 - zxdd
-  type: vless
-  server: 35.157.240.237
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+- name: 🇩🇪 德国 (Germany) 21 - zxdd
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇩🇪 德国 (Germany) 17 - zxdd
+- name: 🇩🇪 德国 (Germany) 22 - zxdd
   type: vless
-  server: 91.107.190.175
+  server: 91.107.190.63
   port: 8080
   uuid: 11af1c47-865a-47c6-92ff-118013655d78
   udp: true
@@ -198,66 +247,9 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2048
     headers:
-      Host: 91.107.190.175
-- name: 🇩🇪 德国 (Germany) 18 - zxdd
-  type: vless
-  server: 151.242.17.99
-  port: 8443
-  uuid: a04814d9-d006-4e7b-ae20-8ab304b3b429
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 6Yskxg5U0WxPGtuCAAGH9uD57T4U8LeGrErTBNvIrwM
-  servername: de.emvservice.com
-  client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 19 - zxdd
-  type: vmess
-  server: 82.198.246.97
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 20 - zxdd
-  type: vmess
-  server: 82.198.246.37
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 21 - zxdd
-  type: vless
-  server: 163.8.195.241
-  port: 2087
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /29c8fed7ca22
-    headers:
-      Host: 163.8.195.241
-- name: 🇩🇪 德国 (Germany) 22 - zxdd
-  type: vless
-  server: 151.242.17.99
-  port: 8443
-  uuid: a04814d9-d006-4e7b-ae20-8ab304b3b429
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 6Yskxg5U0WxPGtuCAAGH9uD57T4U8LeGrErTBNvIrwM
-  servername: de.emvservice.com
-  client-fingerprint: chrome
+      Host: 91.107.190.63
 - name: 🇩🇪 德国 (Germany) 23 - zxdd
   type: vless
   server: 163.8.195.241
@@ -270,7 +262,7 @@ proxies:
   ws-opts:
     path: /29c8fed7ca22
     headers:
-      Host: zoom.us
+      Host: 163.8.195.241
 - name: 🇩🇪 德国 (Germany) 24 - zxdd
   type: vless
   server: 91.107.190.63
@@ -285,113 +277,71 @@ proxies:
     headers:
       Host: 91.107.190.63
 - name: 🇩🇪 德国 (Germany) 25 - zxdd
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-1
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: 🇩🇪 德国 (Germany) 26 - zxdd
-  type: vless
-  server: 94.156.232.254
-  port: 443
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf6.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf6.rumedia-cdn.com
-- name: 🇩🇪 德国 (Germany) 27 - zxdd
-  type: ss
-  server: 2.58.81.221
-  port: 443
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
-  udp: true
-- name: 🇩🇪 德国 (Germany) 28 - zxdd
-  type: vless
-  server: 57.129.41.216
-  port: 80
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: OV-Germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 29 - zxdd
-  type: ss
-  server: 209.46.102.22
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: 1hhrqrokj3ag
-  udp: true
-- name: 🇩🇪 德国 (Germany) 30 - zxdd
-  type: vless
-  server: 163.8.195.241
-  port: 2087
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /29c8fed7ca22
-    headers:
-      Host: /?--v2rayNplus--v2rayNplus--v2rayNplus--
-- name: 🇩🇪 德国 (Germany) 31 - zxdd
   type: ss
   server: 185.226.172.8
   port: 8008
   cipher: aes-256-gcm
   password: XKFKl2rULjIp74
   udp: true
-- name: 🇩🇪 德国 (Germany) 32 - zxdd
+- name: 🇩🇪 德国 (Germany) 26 - zxdd
+  type: ss
+  server: 209.46.102.22
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: 1hhrqrokj3ag
+  udp: true
+- name: 🇩🇪 德国 (Germany) 27 - zxdd
   type: vless
-  server: 204.11.2.120
-  port: 16565
-  uuid: 2edbad06-49de-4f75-bfc9-993a12cfe3f1
+  server: 144.31.106.40
+  port: 8443
+  uuid: 758f49d3-5f5f-47e7-bfa4-4ce96faf800d
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: CuCszXg3N1y8X2klMaK70LeoRbF3vasPI0DG92Dyymo
-  servername: cdn.diba4movie.xyz
+    public-key: NI5Rkfn6zO_gF-UC1nuvJwu4SDakCXh3ygJOKU1EITU
+  servername: cdn.shopify.com
   client-fingerprint: chrome
-- name: 🇩🇪 德国 (Germany) 33 - zxdd
-  type: vless
-  server: 94.156.232.254
+- name: 🇩🇪 德国 (Germany) 28 - zxdd
+  type: ss
+  server: 51.195.126.38
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: 2YdE4lFOid5a
+  udp: true
+- name: 🇩🇪 德国 (Germany) 29 - zxdd
+  type: ss
+  server: 2.58.81.221
   port: 443
-  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
+  udp: true
+- name: 🇩🇪 德国 (Germany) 30 - zxdd
+  type: vless
+  server: 35.157.240.237
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cf6.rumedia-cdn.com
+  servername: bab-6.site
   network: ws
   ws-opts:
-    path: /cdn/v3/live
+    path: /vws/
     headers:
-      Host: cf6.rumedia-cdn.com
-- name: 🇩🇪 德国 (Germany) 34 - zxdd
-  type: ss
-  server: 213.202.208.199
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
+      Host: bab-6.site
+- name: 🇩🇪 德国 (Germany) 31 - zxdd
+  type: vless
+  server: 93.152.217.41
+  port: 40443
+  uuid: 969bcce0-de8a-4b02-8cf8-d00d2d2ca7a5
   udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: VG-FwQBMFzPcemJ_JqtkbO-2WKLmQp2h0CmAj-DfLkA
+  servername: deepl.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -428,9 +378,6 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 29 - zxdd
   - 🇩🇪 德国 (Germany) 30 - zxdd
   - 🇩🇪 德国 (Germany) 31 - zxdd
-  - 🇩🇪 德国 (Germany) 32 - zxdd
-  - 🇩🇪 德国 (Germany) 33 - zxdd
-  - 🇩🇪 德国 (Germany) 34 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -467,8 +414,5 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 29 - zxdd
   - 🇩🇪 德国 (Germany) 30 - zxdd
   - 🇩🇪 德国 (Germany) 31 - zxdd
-  - 🇩🇪 德国 (Germany) 32 - zxdd
-  - 🇩🇪 德国 (Germany) 33 - zxdd
-  - 🇩🇪 德国 (Germany) 34 - zxdd
 rules:
 - MATCH,PROXIES
