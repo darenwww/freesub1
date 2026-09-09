@@ -6,17 +6,18 @@ log-level: info
 proxies:
 - name: 🇱🇻 LV 01 - zxdd
   type: vless
-  server: 89.36.161.222
-  port: 2096
-  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
+  server: 104.24.31.89
+  port: 443
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560
     headers:
-      Host: laoye.in-gect.fun
+      Host: rayan-007.nastaran.dpdns.org
 - name: 🇱🇻 LV 02 - zxdd
   type: vless
   server: 89.36.161.222
@@ -42,7 +43,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 89.36.161.222
+      Host: laoye.in-gect.fun
 - name: 🇱🇻 LV 04 - zxdd
   type: vless
   server: 89.36.161.222
@@ -68,6 +69,32 @@ proxies:
   ws-opts:
     path: /
     headers:
+      Host: 89.36.161.222
+- name: 🇱🇻 LV 06 - zxdd
+  type: vless
+  server: laoye.in-gect.fun
+  port: 2096
+  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: laoye.in-gect.fun
+- name: 🇱🇻 LV 07 - zxdd
+  type: vless
+  server: 89.36.161.222
+  port: 2096
+  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
       Host: laoye.in-gect.fun
 proxy-groups:
 - name: PROXIES
@@ -79,6 +106,8 @@ proxy-groups:
   - 🇱🇻 LV 03 - zxdd
   - 🇱🇻 LV 04 - zxdd
   - 🇱🇻 LV 05 - zxdd
+  - 🇱🇻 LV 06 - zxdd
+  - 🇱🇻 LV 07 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -89,5 +118,7 @@ proxy-groups:
   - 🇱🇻 LV 03 - zxdd
   - 🇱🇻 LV 04 - zxdd
   - 🇱🇻 LV 05 - zxdd
+  - 🇱🇻 LV 06 - zxdd
+  - 🇱🇻 LV 07 - zxdd
 rules:
 - MATCH,PROXIES
