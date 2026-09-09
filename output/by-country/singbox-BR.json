@@ -6,24 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇻 LV 01 - zxdd",
-        "🇱🇻 LV 02 - zxdd",
-        "🇱🇻 LV 03 - zxdd",
-        "🇱🇻 LV 04 - zxdd",
-        "🇱🇻 LV 05 - zxdd",
-        "🇱🇻 LV 06 - zxdd"
+        "🇧🇷 BR 01 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 LV 01 - zxdd",
-        "🇱🇻 LV 02 - zxdd",
-        "🇱🇻 LV 03 - zxdd",
-        "🇱🇻 LV 04 - zxdd",
-        "🇱🇻 LV 05 - zxdd",
-        "🇱🇻 LV 06 - zxdd"
+        "🇧🇷 BR 01 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },
