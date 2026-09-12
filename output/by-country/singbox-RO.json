@@ -6,18 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇪 IE 01 - zxdd",
-        "🇮🇪 IE 02 - zxdd",
-        "🇮🇪 IE 03 - zxdd"
+        "🇷🇴 RO 01 - zxdd",
+        "🇷🇴 RO 02 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - zxdd",
-        "🇮🇪 IE 02 - zxdd",
-        "🇮🇪 IE 03 - zxdd"
+        "🇷🇴 RO 01 - zxdd",
+        "🇷🇴 RO 02 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },
