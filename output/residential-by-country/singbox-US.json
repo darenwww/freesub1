@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇿 AZ 01 - zxdd",
-        "🇦🇿 AZ 02 - zxdd"
+        "🇺🇸 美国 (United States) 01 (家宽) - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇿 AZ 01 - zxdd",
-        "🇦🇿 AZ 02 - zxdd"
+        "🇺🇸 美国 (United States) 01 (家宽) - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },
