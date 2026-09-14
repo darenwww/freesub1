@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 MX 01 - zxdd"
+        "🇦🇺 澳大利亚 (Australia) 01 - zxdd",
+        "🇦🇺 澳大利亚 (Australia) 02 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - zxdd"
+        "🇦🇺 澳大利亚 (Australia) 01 - zxdd",
+        "🇦🇺 澳大利亚 (Australia) 02 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },
