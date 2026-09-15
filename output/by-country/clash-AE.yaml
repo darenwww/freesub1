@@ -6,7 +6,19 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - zxdd
   type: vless
-  server: uae.unixzone.us
+  server: 89.125.147.199
+  port: 443
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
+  client-fingerprint: random
+- name: 🇦🇪 阿联酋 (UAE) 02 - zxdd
+  type: vless
+  server: 84.235.244.108
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -17,43 +29,33 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 02 - zxdd
+- name: 🇦🇪 阿联酋 (UAE) 03 - zxdd
   type: vless
-  server: cdn.snobvpn.online
-  port: 80
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /snob-ws
+    path: /
     headers:
-      Host: cdn.snobvpn.online
-- name: 🇦🇪 阿联酋 (UAE) 03 - zxdd
-  type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: firefox
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 04 - zxdd
   type: vless
-  server: 89.125.147.199
+  server: 162.159.153.4
   port: 443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: chrome
+  servername: rayan-007.maxima.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.maxima.dpdns.org
 - name: 🇦🇪 阿联酋 (UAE) 05 - zxdd
   type: vless
   server: 89.125.147.199
@@ -79,6 +81,19 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 07 - zxdd
+  type: vless
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
 proxy-groups:
 - name: PROXIES
   type: select
@@ -90,6 +105,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - zxdd
   - 🇦🇪 阿联酋 (UAE) 05 - zxdd
   - 🇦🇪 阿联酋 (UAE) 06 - zxdd
+  - 🇦🇪 阿联酋 (UAE) 07 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -101,5 +117,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - zxdd
   - 🇦🇪 阿联酋 (UAE) 05 - zxdd
   - 🇦🇪 阿联酋 (UAE) 06 - zxdd
+  - 🇦🇪 阿联酋 (UAE) 07 - zxdd
 rules:
 - MATCH,PROXIES
