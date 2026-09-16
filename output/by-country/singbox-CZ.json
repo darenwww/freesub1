@@ -6,24 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇭 CH 01 - zxdd",
-        "🇨🇭 CH 02 - zxdd",
-        "🇨🇭 CH 03 - zxdd",
-        "🇨🇭 CH 04 - zxdd",
-        "🇨🇭 CH 05 - zxdd",
-        "🇨🇭 CH 06 - zxdd"
+        "🇨🇿 CZ 01 - zxdd",
+        "🇨🇿 CZ 02 - zxdd",
+        "🇨🇿 CZ 03 - zxdd",
+        "🇨🇿 CZ 04 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇭 CH 01 - zxdd",
-        "🇨🇭 CH 02 - zxdd",
-        "🇨🇭 CH 03 - zxdd",
-        "🇨🇭 CH 04 - zxdd",
-        "🇨🇭 CH 05 - zxdd",
-        "🇨🇭 CH 06 - zxdd"
+        "🇨🇿 CZ 01 - zxdd",
+        "🇨🇿 CZ 02 - zxdd",
+        "🇨🇿 CZ 03 - zxdd",
+        "🇨🇿 CZ 04 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },
