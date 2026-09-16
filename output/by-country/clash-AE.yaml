@@ -6,54 +6,19 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - zxdd
   type: vless
-  server: 89.125.147.199
+  server: 146.70.37.253
   port: 443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: chrome
-- name: 🇦🇪 阿联酋 (UAE) 02 - zxdd
-  type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: random
-- name: 🇦🇪 阿联酋 (UAE) 03 - zxdd
-  type: vless
-  server: cdn.snobvpn.online
-  port: 80
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
-  udp: true
-  tls: false
-  skip-cert-verify: true
+  servername: kkkk-xcd.pages.dev
   network: ws
   ws-opts:
-    path: /snob-ws
+    path: /?ed=2048
     headers:
-      Host: cdn.snobvpn.online
-- name: 🇦🇪 阿联酋 (UAE) 04 - zxdd
-  type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 05 - zxdd
+      Host: kkkk-xcd.pages.dev
+- name: 🇦🇪 阿联酋 (UAE) 02 - zxdd
   type: vless
   server: 84.235.244.108
   port: 22573
@@ -66,11 +31,36 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 06 - zxdd
+- name: 🇦🇪 阿联酋 (UAE) 03 - zxdd
+  type: vless
+  server: 89.125.147.199
+  port: 443
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
+  client-fingerprint: random
+- name: 🇦🇪 阿联酋 (UAE) 04 - zxdd
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
+- name: 🇦🇪 阿联酋 (UAE) 05 - zxdd
   type: vless
   server: cdn.snobvpn.online
   port: 80
-  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
   udp: true
   tls: false
   skip-cert-verify: true
@@ -79,18 +69,58 @@ proxies:
     path: /snob-ws
     headers:
       Host: cdn.snobvpn.online
-- name: 🇦🇪 阿联酋 (UAE) 07 - zxdd
+- name: 🇦🇪 阿联酋 (UAE) 06 - zxdd
   type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: a6dca797-9803-4f2c-ae45-e6bd8d0e9842
+  server: 89.125.147.199
+  port: 443
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
   client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 07 - zxdd
+  type: vless
+  server: 89.125.147.199
+  port: 443
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 08 - zxdd
+  type: vless
+  server: 162.159.153.4
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: rayan-007.maxima.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.maxima.dpdns.org
+- name: 🇦🇪 阿联酋 (UAE) 09 - zxdd
+  type: vless
+  server: 128.241.25.72
+  port: 30021
+  uuid: 65f26a08-9a5e-4b28-9004-f98676cc1e49
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -103,6 +133,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - zxdd
   - 🇦🇪 阿联酋 (UAE) 06 - zxdd
   - 🇦🇪 阿联酋 (UAE) 07 - zxdd
+  - 🇦🇪 阿联酋 (UAE) 08 - zxdd
+  - 🇦🇪 阿联酋 (UAE) 09 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -115,5 +147,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - zxdd
   - 🇦🇪 阿联酋 (UAE) 06 - zxdd
   - 🇦🇪 阿联酋 (UAE) 07 - zxdd
+  - 🇦🇪 阿联酋 (UAE) 08 - zxdd
+  - 🇦🇪 阿联酋 (UAE) 09 - zxdd
 rules:
 - MATCH,PROXIES
