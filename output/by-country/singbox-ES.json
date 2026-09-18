@@ -6,16 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - zxdd",
-        "🇮🇶 IQ 02 - zxdd"
+        "🇪🇸 西班牙 (Spain) 01 - zxdd",
+        "🇪🇸 西班牙 (Spain) 02 - zxdd",
+        "🇪🇸 西班牙 (Spain) 03 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - zxdd",
-        "🇮🇶 IQ 02 - zxdd"
+        "🇪🇸 西班牙 (Spain) 01 - zxdd",
+        "🇪🇸 西班牙 (Spain) 02 - zxdd",
+        "🇪🇸 西班牙 (Spain) 03 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },
