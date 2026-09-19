@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇧🇪 BE 01 - zxdd",
+        "🇧🇪 BE 02 - zxdd",
+        "🇧🇪 BE 03 - zxdd",
+        "🇧🇪 BE 04 - zxdd",
+        "🇧🇪 BE 05 - zxdd",
+        "🇧🇪 BE 06 - zxdd",
+        "🇧🇪 BE 07 - zxdd",
+        "🇧🇪 BE 08 - zxdd"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇪 BE 01 - zxdd",
+        "🇧🇪 BE 02 - zxdd",
+        "🇧🇪 BE 03 - zxdd",
+        "🇧🇪 BE 04 - zxdd",
+        "🇧🇪 BE 05 - zxdd",
+        "🇧🇪 BE 06 - zxdd",
+        "🇧🇪 BE 07 - zxdd",
+        "🇧🇪 BE 08 - zxdd"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
