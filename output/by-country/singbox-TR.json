@@ -6,20 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 NO 01 - zxdd",
-        "🇳🇴 NO 02 - zxdd",
-        "🇳🇴 NO 03 - zxdd",
-        "🇳🇴 NO 04 - zxdd"
+        "🇹🇷 土耳其 (Turkey) 01 - zxdd",
+        "🇹🇷 土耳其 (Turkey) 02 - zxdd",
+        "🇹🇷 土耳其 (Turkey) 03 - zxdd",
+        "🇹🇷 土耳其 (Turkey) 04 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 NO 01 - zxdd",
-        "🇳🇴 NO 02 - zxdd",
-        "🇳🇴 NO 03 - zxdd",
-        "🇳🇴 NO 04 - zxdd"
+        "🇹🇷 土耳其 (Turkey) 01 - zxdd",
+        "🇹🇷 土耳其 (Turkey) 02 - zxdd",
+        "🇹🇷 土耳其 (Turkey) 03 - zxdd",
+        "🇹🇷 土耳其 (Turkey) 04 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },
