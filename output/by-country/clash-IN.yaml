@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
   servername: www.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇮🇳 印度 (India) 02 - zxdd
   type: vless
   server: 194.61.31.126
@@ -41,42 +41,6 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇮🇳 印度 (India) 04 - zxdd
-  type: vless
-  server: 34.47.245.203
-  port: 443
-  uuid: 3fed34dc-2fe6-4fe0-86e7-a80213f9b7cc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: dB68n-Vyph0_KBtBIe45b5GCB4F1IqpBF_ohlN-KpkY
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 05 - zxdd
-  type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 06 - zxdd
-  type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 07 - zxdd
   type: vmess
   server: 152.67.8.205
   port: 80
@@ -91,6 +55,18 @@ proxies:
     path: ''
     headers:
       Host: ''
+- name: 🇮🇳 印度 (India) 05 - zxdd
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+  servername: www.apple.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -101,8 +77,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - zxdd
   - 🇮🇳 印度 (India) 04 - zxdd
   - 🇮🇳 印度 (India) 05 - zxdd
-  - 🇮🇳 印度 (India) 06 - zxdd
-  - 🇮🇳 印度 (India) 07 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -113,7 +87,5 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - zxdd
   - 🇮🇳 印度 (India) 04 - zxdd
   - 🇮🇳 印度 (India) 05 - zxdd
-  - 🇮🇳 印度 (India) 06 - zxdd
-  - 🇮🇳 印度 (India) 07 - zxdd
 rules:
 - MATCH,PROXIES

@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇧🇬 BG 01 - zxdd",
+        "🇧🇬 BG 02 - zxdd",
+        "🇧🇬 BG 03 - zxdd",
+        "🇧🇬 BG 04 - zxdd",
+        "🇧🇬 BG 05 - zxdd",
+        "🇧🇬 BG 06 - zxdd"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇬 BG 01 - zxdd",
+        "🇧🇬 BG 02 - zxdd",
+        "🇧🇬 BG 03 - zxdd",
+        "🇧🇬 BG 04 - zxdd",
+        "🇧🇬 BG 05 - zxdd",
+        "🇧🇬 BG 06 - zxdd"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

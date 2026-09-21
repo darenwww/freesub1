@@ -4,31 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇲 AM 01 - zxdd
+- name: 🇺🇸 美国 (United States) 01 (家宽) - zxdd
   type: vless
-  server: 2.27.244.164
-  port: 8443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 172.67.209.127
+  port: 8880
+  uuid: 1b3ad465-d37e-48a2-bb53-d7fddfc97b11
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /channels/act
+    path: /
     headers:
-      Host: cdn8848.776676.xyz
+      Host: calm-silence-d4a1.217.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇦🇲 AM 01 - zxdd
+  - 🇺🇸 美国 (United States) 01 (家宽) - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇲 AM 01 - zxdd
+  - 🇺🇸 美国 (United States) 01 (家宽) - zxdd
 rules:
 - MATCH,PROXIES
