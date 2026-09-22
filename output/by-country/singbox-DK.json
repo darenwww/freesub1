@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇩🇰 DK 01 - zxdd"
+        "🇩🇰 DK 01 - zxdd",
+        "🇩🇰 DK 02 - zxdd",
+        "🇩🇰 DK 03 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇰 DK 01 - zxdd"
+        "🇩🇰 DK 01 - zxdd",
+        "🇩🇰 DK 02 - zxdd",
+        "🇩🇰 DK 03 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },

@@ -4,24 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇦🇲 AM 01 - zxdd
+- name: 🇨🇭 CH 01 - zxdd
   type: vless
-  server: 2.56.204.183
+  server: 103.63.30.163
   port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: shuma.ccwu.cc
+  servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: shuma.ccwu.cc
-- name: 🇦🇲 AM 02 - zxdd
+      Host: xi.tbv.ccwu.cc
+- name: 🇨🇭 CH 02 - zxdd
   type: vless
-  server: 2.56.204.183
-  port: 443
+  server: 107.189.2.206
+  port: 8443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
   tls: true
@@ -37,14 +37,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇦🇲 AM 01 - zxdd
-  - 🇦🇲 AM 02 - zxdd
+  - 🇨🇭 CH 01 - zxdd
+  - 🇨🇭 CH 02 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇦🇲 AM 01 - zxdd
-  - 🇦🇲 AM 02 - zxdd
+  - 🇨🇭 CH 01 - zxdd
+  - 🇨🇭 CH 02 - zxdd
 rules:
 - MATCH,PROXIES
