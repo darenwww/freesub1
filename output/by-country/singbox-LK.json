@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 NO 01 - zxdd"
+        "🇱🇰 LK 01 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 NO 01 - zxdd"
+        "🇱🇰 LK 01 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },
