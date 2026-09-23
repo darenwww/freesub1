@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 (家宽) - zxdd"
+        "🇪🇪 EE 01 - zxdd",
+        "🇪🇪 EE 02 - zxdd",
+        "🇪🇪 EE 03 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 (家宽) - zxdd"
+        "🇪🇪 EE 01 - zxdd",
+        "🇪🇪 EE 02 - zxdd",
+        "🇪🇪 EE 03 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },
