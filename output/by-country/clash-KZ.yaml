@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇿 CZ 01 - zxdd
+- name: 🇰🇿 KZ 01 - zxdd
   type: vless
-  server: 104.21.64.250
-  port: 2053
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  server: 89.218.15.90
+  port: 10002
+  uuid: 392fcc7e-b995-11f1-a6b7-1b2272a86bd5
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
+  servername: kz1.vpnjantit.com
   network: ws
   ws-opts:
-    path: /
+    path: /vpnjantit
     headers:
-      Host: index.arcane509.workers.dev
+      Host: kz1.vpnjantit.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇿 CZ 01 - zxdd
+  - 🇰🇿 KZ 01 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇿 CZ 01 - zxdd
+  - 🇰🇿 KZ 01 - zxdd
 rules:
 - MATCH,PROXIES
