@@ -6,14 +6,28 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇪 IE 01 - zxdd"
+        "🇮🇪 IE 01 - zxdd",
+        "🇮🇪 IE 02 - zxdd",
+        "🇮🇪 IE 03 - zxdd",
+        "🇮🇪 IE 04 - zxdd",
+        "🇮🇪 IE 05 - zxdd",
+        "🇮🇪 IE 06 - zxdd",
+        "🇮🇪 IE 07 - zxdd",
+        "🇮🇪 IE 08 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - zxdd"
+        "🇮🇪 IE 01 - zxdd",
+        "🇮🇪 IE 02 - zxdd",
+        "🇮🇪 IE 03 - zxdd",
+        "🇮🇪 IE 04 - zxdd",
+        "🇮🇪 IE 05 - zxdd",
+        "🇮🇪 IE 06 - zxdd",
+        "🇮🇪 IE 07 - zxdd",
+        "🇮🇪 IE 08 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },

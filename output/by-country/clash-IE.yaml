@@ -6,6 +6,62 @@ log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - zxdd
   type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇮🇪 IE 02 - zxdd
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇮🇪 IE 03 - zxdd
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇮🇪 IE 04 - zxdd
+  type: vless
+  server: 104.21.63.28
+  port: 443
+  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: youxuanku.kdns.fr
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: youxuanku.kdns.fr
+- name: 🇮🇪 IE 05 - zxdd
+  type: vless
   server: 45.141.234.138
   port: 443
   uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
@@ -18,17 +74,73 @@ proxies:
     path: /
     headers:
       Host: edgetunnel-4uw.pages.dev
+- name: 🇮🇪 IE 06 - zxdd
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇮🇪 IE 07 - zxdd
+  type: vless
+  server: 172.67.222.62
+  port: 443
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf-vless-4cf55824.aimall.fr
+  network: ws
+  ws-opts:
+    path: /connect
+    headers:
+      Host: cf-vless-4cf55824.aimall.fr
+- name: 🇮🇪 IE 08 - zxdd
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /fp=chrome?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=512
+    headers:
+      Host: edgetunnel-4uw.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇮🇪 IE 01 - zxdd
+  - 🇮🇪 IE 02 - zxdd
+  - 🇮🇪 IE 03 - zxdd
+  - 🇮🇪 IE 04 - zxdd
+  - 🇮🇪 IE 05 - zxdd
+  - 🇮🇪 IE 06 - zxdd
+  - 🇮🇪 IE 07 - zxdd
+  - 🇮🇪 IE 08 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇮🇪 IE 01 - zxdd
+  - 🇮🇪 IE 02 - zxdd
+  - 🇮🇪 IE 03 - zxdd
+  - 🇮🇪 IE 04 - zxdd
+  - 🇮🇪 IE 05 - zxdd
+  - 🇮🇪 IE 06 - zxdd
+  - 🇮🇪 IE 07 - zxdd
+  - 🇮🇪 IE 08 - zxdd
 rules:
 - MATCH,PROXIES
