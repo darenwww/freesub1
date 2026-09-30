@@ -12,30 +12,6 @@ proxies:
   password: WSyL4XTwNsdv
   udp: true
 - name: 🇪🇸 西班牙 (Spain) 02 - zxdd
-  type: vmess
-  server: 66.163.118.73
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇪🇸 西班牙 (Spain) 03 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇪🇸 西班牙 (Spain) 04 - zxdd
   type: vless
   server: 212.227.235.66
   port: 2053
@@ -47,21 +23,17 @@ proxies:
     public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
   servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇪🇸 西班牙 (Spain) 05 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+- name: 🇪🇸 西班牙 (Spain) 03 - zxdd
+  type: vmess
+  server: 66.163.118.73
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇪🇸 西班牙 (Spain) 06 - zxdd
+- name: 🇪🇸 西班牙 (Spain) 04 - zxdd
   type: vmess
   server: mygptagent.org
   port: 443
@@ -86,8 +58,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 02 - zxdd
   - 🇪🇸 西班牙 (Spain) 03 - zxdd
   - 🇪🇸 西班牙 (Spain) 04 - zxdd
-  - 🇪🇸 西班牙 (Spain) 05 - zxdd
-  - 🇪🇸 西班牙 (Spain) 06 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -97,7 +67,5 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 02 - zxdd
   - 🇪🇸 西班牙 (Spain) 03 - zxdd
   - 🇪🇸 西班牙 (Spain) 04 - zxdd
-  - 🇪🇸 西班牙 (Spain) 05 - zxdd
-  - 🇪🇸 西班牙 (Spain) 06 - zxdd
 rules:
 - MATCH,PROXIES
