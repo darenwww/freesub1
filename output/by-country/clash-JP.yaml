@@ -15,102 +15,51 @@ proxies:
   reality-opts:
     public-key: Y0aqDtPHb_inkRBkx1hs5yxMZX9_dZr4t_sGGIU8mmM
   servername: www.intel.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇯🇵 日本 (Japan) 02 - zxdd
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 45.76.215.91
+  port: 52226
+  uuid: 88dde62f-b4aa-4e59-84c3-1024f838e1c9
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: Y0aqDtPHb_inkRBkx1hs5yxMZX9_dZr4t_sGGIU8mmM
+  servername: www.intel.com
+  client-fingerprint: random
 - name: 🇯🇵 日本 (Japan) 03 - zxdd
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 04 - zxdd
   type: ss
-  server: 149.22.87.241
+  server: 149.22.87.240
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
+- name: 🇯🇵 日本 (Japan) 04 - zxdd
+  type: vless
+  server: abctest.8rm.net
+  port: 443
+  uuid: 351c9981-04b6-4103-aa4b-864aa9c91469
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: abctest.8rm.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: abctest.8rm.net
 - name: 🇯🇵 日本 (Japan) 05 - zxdd
   type: vmess
-  server: 168.138.43.75
-  port: 80
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: jp01.a0a.xyz
 - name: 🇯🇵 日本 (Japan) 06 - zxdd
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 07 - zxdd
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 08 - zxdd
-  type: ss
-  server: 84.247.155.196
-  port: 443
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 09 - zxdd
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 10 - zxdd
-  type: vmess
-  server: 168.138.43.75
-  port: 80
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: jp01.a0a.xyz
-- name: 🇯🇵 日本 (Japan) 11 - zxdd
   type: vmess
   server: 168.138.43.75
   port: 80
@@ -125,33 +74,7 @@ proxies:
     path: /cctv13.m3u8
     headers:
       Host: ''
-- name: 🇯🇵 日本 (Japan) 12 - zxdd
-  type: vless
-  server: 45.76.215.91
-  port: 52226
-  uuid: 88dde62f-b4aa-4e59-84c3-1024f838e1c9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Y0aqDtPHb_inkRBkx1hs5yxMZX9_dZr4t_sGGIU8mmM
-  servername: www.intel.com
-  client-fingerprint: random
-- name: 🇯🇵 日本 (Japan) 13 - zxdd
-  type: vless
-  server: 162.159.254.3
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 14 - zxdd
+- name: 🇯🇵 日本 (Japan) 07 - zxdd
   type: vmess
   server: 45.32.57.118
   port: 4433
@@ -161,33 +84,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 15 - zxdd
-  type: vless
-  server: 45.192.202.199
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇯🇵 日本 (Japan) 16 - zxdd
-  type: vless
-  server: 45.76.215.91
-  port: 52226
-  uuid: 88dde62f-b4aa-4e59-84c3-1024f838e1c9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Y0aqDtPHb_inkRBkx1hs5yxMZX9_dZr4t_sGGIU8mmM
-  servername: www.intel.com
-  client-fingerprint: safari
-- name: 🇯🇵 日本 (Japan) 17 - zxdd
+- name: 🇯🇵 日本 (Japan) 08 - zxdd
   type: vless
   server: 137.220.221.179
   port: 443
@@ -195,33 +92,24 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 18 - zxdd
-  type: vless
-  server: 45.76.215.91
-  port: 52226
-  uuid: 88dde62f-b4aa-4e59-84c3-1024f838e1c9
+- name: 🇯🇵 日本 (Japan) 09 - zxdd
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: Y0aqDtPHb_inkRBkx1hs5yxMZX9_dZr4t_sGGIU8mmM
-  servername: www.intel.com
-  client-fingerprint: random
-- name: 🇯🇵 日本 (Japan) 19 - zxdd
-  type: vless
-  server: 45.192.202.199
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+- name: 🇯🇵 日本 (Japan) 10 - zxdd
+  type: ss
+  server: 185.141.219.33
+  port: 8388
+  cipher: aes-256-gcm
+  password: AIe2aNsA6KVQ6Ok0
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /+
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇯🇵 日本 (Japan) 20 - zxdd
+- name: 🇯🇵 日本 (Japan) 11 - zxdd
   type: vless
   server: 45.192.202.199
   port: 443
@@ -235,7 +123,132 @@ proxies:
     path: /fp=chrome
     headers:
       Host: edgetunnel-4uw.pages.dev
+- name: 🇯🇵 日本 (Japan) 12 - zxdd
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: ''
+- name: 🇯🇵 日本 (Japan) 13 - zxdd
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 14 - zxdd
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 15 - zxdd
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 16 - zxdd
+  type: vless
+  server: 45.8.173.250
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /+
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇯🇵 日本 (Japan) 17 - zxdd
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: 168.138.43.75
+- name: 🇯🇵 日本 (Japan) 18 - zxdd
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 19 - zxdd
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 20 - zxdd
+  type: vless
+  server: 45.8.173.250
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
 - name: 🇯🇵 日本 (Japan) 21 - zxdd
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇯🇵 日本 (Japan) 22 - zxdd
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 23 - zxdd
   type: vless
   server: 104.19.164.155
   port: 443
@@ -249,7 +262,122 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 22 - zxdd
+- name: 🇯🇵 日本 (Japan) 24 - zxdd
+  type: vless
+  server: 45.76.215.91
+  port: 52226
+  uuid: 88dde62f-b4aa-4e59-84c3-1024f838e1c9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Y0aqDtPHb_inkRBkx1hs5yxMZX9_dZr4t_sGGIU8mmM
+  servername: www.intel.com
+  client-fingerprint: safari
+- name: 🇯🇵 日本 (Japan) 25 - zxdd
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /fp=chrome?ed#?ed=512
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇯🇵 日本 (Japan) 26 - zxdd
+  type: ss
+  server: 84.247.155.196
+  port: 443
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 27 - zxdd
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 28 - zxdd
+  type: ss
+  server: 84.247.155.196
+  port: 80
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 29 - zxdd
+  type: vless
+  server: abctest.8rm.net
+  port: 443
+  uuid: 351c9981-04b6-4103-aa4b-864aa9c91469
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: abctest.8rm.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: abctest.8rm.net
+- name: 🇯🇵 日本 (Japan) 30 - zxdd
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 31 - zxdd
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 32 - zxdd
+  type: vless
+  server: 45.76.215.91
+  port: 52226
+  uuid: 88dde62f-b4aa-4e59-84c3-1024f838e1c9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Y0aqDtPHb_inkRBkx1hs5yxMZX9_dZr4t_sGGIU8mmM
+  servername: www.intel.com
+  client-fingerprint: random
+- name: 🇯🇵 日本 (Japan) 33 - zxdd
+  type: vless
+  server: 45.76.215.91
+  port: 52226
+  uuid: 88dde62f-b4aa-4e59-84c3-1024f838e1c9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Y0aqDtPHb_inkRBkx1hs5yxMZX9_dZr4t_sGGIU8mmM
+  servername: www.intel.com
+  client-fingerprint: random
+- name: 🇯🇵 日本 (Japan) 34 - zxdd
+  type: vless
+  server: 45.76.215.91
+  port: 52226
+  uuid: 88dde62f-b4aa-4e59-84c3-1024f838e1c9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Y0aqDtPHb_inkRBkx1hs5yxMZX9_dZr4t_sGGIU8mmM
+  servername: www.intel.com
+  client-fingerprint: chrome
+- name: 🇯🇵 日本 (Japan) 35 - zxdd
   type: vmess
   server: 168.138.43.75
   port: 80
@@ -264,19 +392,7 @@ proxies:
     path: /cctv13.m3u8
     headers:
       Host: none
-- name: 🇯🇵 日本 (Japan) 23 - zxdd
-  type: vless
-  server: 45.76.215.91
-  port: 52226
-  uuid: 88dde62f-b4aa-4e59-84c3-1024f838e1c9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Y0aqDtPHb_inkRBkx1hs5yxMZX9_dZr4t_sGGIU8mmM
-  servername: www.intel.com
-  client-fingerprint: random
-- name: 🇯🇵 日本 (Japan) 24 - zxdd
+- name: 🇯🇵 日本 (Japan) 36 - zxdd
   type: vmess
   server: 45.32.57.118
   port: 4433
@@ -286,72 +402,82 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 25 - zxdd
-  type: ss
-  server: 84.247.155.196
-  port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 26 - zxdd
-  type: ss
-  server: 149.22.87.204
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 27 - zxdd
+- name: 🇯🇵 日本 (Japan) 37 - zxdd
   type: vless
-  server: 137.220.221.179
+  server: 45.8.173.250
   port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 28 - zxdd
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 29 - zxdd
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 30 - zxdd
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 31 - zxdd
-  type: vless
-  server: 45.76.215.91
-  port: 52226
-  uuid: 88dde62f-b4aa-4e59-84c3-1024f838e1c9
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: Y0aqDtPHb_inkRBkx1hs5yxMZX9_dZr4t_sGGIU8mmM
-  servername: www.intel.com
-  client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 32 - zxdd
-  type: ss
-  server: 149.22.87.240
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /+
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇯🇵 日本 (Japan) 38 - zxdd
+  type: vless
+  server: 104.17.50.53
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
-- name: 🇯🇵 日本 (Japan) 33 - zxdd
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 39 - zxdd
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 40 - zxdd
+  type: vless
+  server: 45.192.202.199
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇯🇵 日本 (Japan) 41 - zxdd
+  type: vmess
+  server: 168.138.43.75
+  port: 80
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: none
+- name: 🇯🇵 日本 (Japan) 42 - zxdd
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 43 - zxdd
   type: vmess
   server: 168.138.43.75
   port: 80
@@ -366,41 +492,7 @@ proxies:
     path: /cctv13.m3u8
     headers:
       Host: ''
-- name: 🇯🇵 日本 (Japan) 34 - zxdd
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 35 - zxdd
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 36 - zxdd
-  type: vless
-  server: 45.8.173.250
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /+
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇯🇵 日本 (Japan) 37 - zxdd
+- name: 🇯🇵 日本 (Japan) 44 - zxdd
   type: vless
   server: 45.76.215.91
   port: 52226
@@ -411,8 +503,30 @@ proxies:
   reality-opts:
     public-key: Y0aqDtPHb_inkRBkx1hs5yxMZX9_dZr4t_sGGIU8mmM
   servername: www.intel.com
-  client-fingerprint: qq
-- name: 🇯🇵 日本 (Japan) 38 - zxdd
+  client-fingerprint: chrome
+- name: 🇯🇵 日本 (Japan) 45 - zxdd
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 46 - zxdd
+  type: vless
+  server: 45.76.215.91
+  port: 52226
+  uuid: 88dde62f-b4aa-4e59-84c3-1024f838e1c9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Y0aqDtPHb_inkRBkx1hs5yxMZX9_dZr4t_sGGIU8mmM
+  servername: www.intel.com
+  client-fingerprint: firefox
+- name: 🇯🇵 日本 (Japan) 47 - zxdd
   type: vless
   server: 45.8.173.250
   port: 443
@@ -423,12 +537,12 @@ proxies:
   servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
-    path: /+
+    path: /
     headers:
       Host: edgetunnel-4uw.pages.dev
-- name: 🇯🇵 日本 (Japan) 39 - zxdd
+- name: 🇯🇵 日本 (Japan) 48 - zxdd
   type: vless
-  server: 162.159.254.3
+  server: 104.17.50.53
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -437,23 +551,9 @@ proxies:
   servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /tyxyws?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 40 - zxdd
-  type: vless
-  server: 45.8.173.250
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: edgetunnel-4uw.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -499,6 +599,14 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 38 - zxdd
   - 🇯🇵 日本 (Japan) 39 - zxdd
   - 🇯🇵 日本 (Japan) 40 - zxdd
+  - 🇯🇵 日本 (Japan) 41 - zxdd
+  - 🇯🇵 日本 (Japan) 42 - zxdd
+  - 🇯🇵 日本 (Japan) 43 - zxdd
+  - 🇯🇵 日本 (Japan) 44 - zxdd
+  - 🇯🇵 日本 (Japan) 45 - zxdd
+  - 🇯🇵 日本 (Japan) 46 - zxdd
+  - 🇯🇵 日本 (Japan) 47 - zxdd
+  - 🇯🇵 日本 (Japan) 48 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -544,5 +652,13 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 38 - zxdd
   - 🇯🇵 日本 (Japan) 39 - zxdd
   - 🇯🇵 日本 (Japan) 40 - zxdd
+  - 🇯🇵 日本 (Japan) 41 - zxdd
+  - 🇯🇵 日本 (Japan) 42 - zxdd
+  - 🇯🇵 日本 (Japan) 43 - zxdd
+  - 🇯🇵 日本 (Japan) 44 - zxdd
+  - 🇯🇵 日本 (Japan) 45 - zxdd
+  - 🇯🇵 日本 (Japan) 46 - zxdd
+  - 🇯🇵 日本 (Japan) 47 - zxdd
+  - 🇯🇵 日本 (Japan) 48 - zxdd
 rules:
 - MATCH,PROXIES
