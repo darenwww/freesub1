@@ -6,14 +6,24 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - zxdd"
+        "🇨🇱 CL 01 - zxdd",
+        "🇨🇱 CL 02 - zxdd",
+        "🇨🇱 CL 03 - zxdd",
+        "🇨🇱 CL 04 - zxdd",
+        "🇨🇱 CL 05 - zxdd",
+        "🇨🇱 CL 06 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - zxdd"
+        "🇨🇱 CL 01 - zxdd",
+        "🇨🇱 CL 02 - zxdd",
+        "🇨🇱 CL 03 - zxdd",
+        "🇨🇱 CL 04 - zxdd",
+        "🇨🇱 CL 05 - zxdd",
+        "🇨🇱 CL 06 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },
