@@ -6,20 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 LK 01 - zxdd",
-        "🇱🇰 LK 02 - zxdd",
-        "🇱🇰 LK 03 - zxdd",
-        "🇱🇰 LK 04 - zxdd"
+        "🇧🇷 BR 01 - zxdd",
+        "🇧🇷 BR 02 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 LK 01 - zxdd",
-        "🇱🇰 LK 02 - zxdd",
-        "🇱🇰 LK 03 - zxdd",
-        "🇱🇰 LK 04 - zxdd"
+        "🇧🇷 BR 01 - zxdd",
+        "🇧🇷 BR 02 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },
