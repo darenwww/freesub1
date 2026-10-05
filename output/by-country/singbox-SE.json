@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇸🇪 SE 01 - zxdd",
+        "🇸🇪 SE 02 - zxdd",
+        "🇸🇪 SE 03 - zxdd",
+        "🇸🇪 SE 04 - zxdd",
+        "🇸🇪 SE 05 - zxdd"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇸🇪 SE 01 - zxdd",
+        "🇸🇪 SE 02 - zxdd",
+        "🇸🇪 SE 03 - zxdd",
+        "🇸🇪 SE 04 - zxdd",
+        "🇸🇪 SE 05 - zxdd"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
