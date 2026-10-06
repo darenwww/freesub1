@@ -14,39 +14,15 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: aksai.org
   network: ws
   ws-opts:
     path: /linkvws
     headers:
-      Host: ''
+      Host: aksai.org
 - name: 🇮🇳 印度 (India) 02 - zxdd
-  type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 03 - zxdd
-  type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-  servername: www.apple.com
-  client-fingerprint: random
-- name: 🇮🇳 印度 (India) 04 - zxdd
   type: vmess
-  server: aksai.org
+  server: 185.67.125.90
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
@@ -60,7 +36,19 @@ proxies:
     path: /linkvws
     headers:
       Host: aksai.org
-- name: 🇮🇳 印度 (India) 05 - zxdd
+- name: 🇮🇳 印度 (India) 03 - zxdd
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇮🇳 印度 (India) 04 - zxdd
   type: vless
   server: 194.61.31.126
   port: 2053
@@ -72,6 +60,30 @@ proxies:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
   servername: www.apple.com
   client-fingerprint: firefox
+- name: 🇮🇳 印度 (India) 05 - zxdd
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇮🇳 印度 (India) 06 - zxdd
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+  servername: www.apple.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -82,6 +94,7 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - zxdd
   - 🇮🇳 印度 (India) 04 - zxdd
   - 🇮🇳 印度 (India) 05 - zxdd
+  - 🇮🇳 印度 (India) 06 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -92,5 +105,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - zxdd
   - 🇮🇳 印度 (India) 04 - zxdd
   - 🇮🇳 印度 (India) 05 - zxdd
+  - 🇮🇳 印度 (India) 06 - zxdd
 rules:
 - MATCH,PROXIES
