@@ -29,10 +29,24 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /fp=chromefp=chrome
     headers:
       Host: ccc.010304.xyz
 - name: 🇹🇷 土耳其 (Turkey) 03 - zxdd
+  type: vless
+  server: 155.103.71.142
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇹🇷 土耳其 (Turkey) 04 - zxdd
   type: vless
   server: test.keoplentuio.xyz
   port: 2053
@@ -48,6 +62,7 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - zxdd
   - 🇹🇷 土耳其 (Turkey) 02 - zxdd
   - 🇹🇷 土耳其 (Turkey) 03 - zxdd
+  - 🇹🇷 土耳其 (Turkey) 04 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -56,5 +71,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - zxdd
   - 🇹🇷 土耳其 (Turkey) 02 - zxdd
   - 🇹🇷 土耳其 (Turkey) 03 - zxdd
+  - 🇹🇷 土耳其 (Turkey) 04 - zxdd
 rules:
 - MATCH,PROXIES
