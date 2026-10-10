@@ -6,76 +6,29 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - zxdd
   type: vless
-  server: 104.21.64.250
-  port: 2053
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.arcane509.workers.dev
-- name: 🇨🇿 CZ 02 - zxdd
-  type: vless
-  server: 172.67.220.34
+  server: 104.19.1.115
   port: 443
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  uuid: e285fb9b-ce0a-45ea-84da-4ad64cacd216
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
+  servername: apP-874a55-219AFC.rEigNsskY2.WORKerS.dev
   network: ws
   ws-opts:
-    path: /
+    path: /vl/dOH03263y00uTucKhyn?ed
     headers:
-      Host: index.arcane509.workers.dev
-- name: 🇨🇿 CZ 03 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
-- name: 🇨🇿 CZ 04 - zxdd
-  type: vless
-  server: 45.130.125.126
-  port: 443
-  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
+      Host: app-874a55-219afc.reignssky2.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇨🇿 CZ 01 - zxdd
-  - 🇨🇿 CZ 02 - zxdd
-  - 🇨🇿 CZ 03 - zxdd
-  - 🇨🇿 CZ 04 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 CZ 01 - zxdd
-  - 🇨🇿 CZ 02 - zxdd
-  - 🇨🇿 CZ 03 - zxdd
-  - 🇨🇿 CZ 04 - zxdd
 rules:
 - MATCH,PROXIES

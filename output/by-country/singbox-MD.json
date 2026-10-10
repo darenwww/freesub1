@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇲🇩 MD 01 - zxdd",
+        "🇲🇩 MD 02 - zxdd",
+        "🇲🇩 MD 03 - zxdd",
+        "🇲🇩 MD 04 - zxdd",
+        "🇲🇩 MD 05 - zxdd",
+        "🇲🇩 MD 06 - zxdd",
+        "🇲🇩 MD 07 - zxdd",
+        "🇲🇩 MD 08 - zxdd",
+        "🇲🇩 MD 09 - zxdd",
+        "🇲🇩 MD 10 - zxdd",
+        "🇲🇩 MD 11 - zxdd",
+        "🇲🇩 MD 12 - zxdd",
+        "🇲🇩 MD 13 - zxdd",
+        "🇲🇩 MD 14 - zxdd",
+        "🇲🇩 MD 15 - zxdd",
+        "🇲🇩 MD 16 - zxdd",
+        "🇲🇩 MD 17 - zxdd"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇲🇩 MD 01 - zxdd",
+        "🇲🇩 MD 02 - zxdd",
+        "🇲🇩 MD 03 - zxdd",
+        "🇲🇩 MD 04 - zxdd",
+        "🇲🇩 MD 05 - zxdd",
+        "🇲🇩 MD 06 - zxdd",
+        "🇲🇩 MD 07 - zxdd",
+        "🇲🇩 MD 08 - zxdd",
+        "🇲🇩 MD 09 - zxdd",
+        "🇲🇩 MD 10 - zxdd",
+        "🇲🇩 MD 11 - zxdd",
+        "🇲🇩 MD 12 - zxdd",
+        "🇲🇩 MD 13 - zxdd",
+        "🇲🇩 MD 14 - zxdd",
+        "🇲🇩 MD 15 - zxdd",
+        "🇲🇩 MD 16 - zxdd",
+        "🇲🇩 MD 17 - zxdd"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
