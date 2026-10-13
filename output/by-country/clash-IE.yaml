@@ -5,20 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - zxdd
-  type: ss
-  server: 20.234.97.18
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: GayYa2V7pUbJBfKu
-  udp: true
-- name: 🇮🇪 IE 02 - zxdd
-  type: ss
-  server: 20.234.97.18
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: K5sEvZiKmens104B
-  udp: true
-- name: 🇮🇪 IE 03 - zxdd
   type: vless
   server: 23.95.225.10
   port: 8443
@@ -32,48 +18,17 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🇮🇪 IE 04 - zxdd
-  type: ss
-  server: 20.234.97.18
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: K5sEvZiKmens104B
-  udp: true
-- name: 🇮🇪 IE 05 - zxdd
-  type: ss
-  server: 20.234.97.18
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: GayYa2V7pUbJBfKu
-  udp: true
-- name: 🇮🇪 IE 06 - zxdd
-  type: ss
-  server: 20.234.97.18
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: K5sEvZiKmens104B
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇮🇪 IE 01 - zxdd
-  - 🇮🇪 IE 02 - zxdd
-  - 🇮🇪 IE 03 - zxdd
-  - 🇮🇪 IE 04 - zxdd
-  - 🇮🇪 IE 05 - zxdd
-  - 🇮🇪 IE 06 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇮🇪 IE 01 - zxdd
-  - 🇮🇪 IE 02 - zxdd
-  - 🇮🇪 IE 03 - zxdd
-  - 🇮🇪 IE 04 - zxdd
-  - 🇮🇪 IE 05 - zxdd
-  - 🇮🇪 IE 06 - zxdd
 rules:
 - MATCH,PROXIES
