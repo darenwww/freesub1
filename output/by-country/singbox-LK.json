@@ -6,14 +6,28 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 LK 01 - zxdd"
+        "🇱🇰 LK 01 - zxdd",
+        "🇱🇰 LK 02 - zxdd",
+        "🇱🇰 LK 03 - zxdd",
+        "🇱🇰 LK 04 - zxdd",
+        "🇱🇰 LK 05 - zxdd",
+        "🇱🇰 LK 06 - zxdd",
+        "🇱🇰 LK 07 - zxdd",
+        "🇱🇰 LK 08 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 LK 01 - zxdd"
+        "🇱🇰 LK 01 - zxdd",
+        "🇱🇰 LK 02 - zxdd",
+        "🇱🇰 LK 03 - zxdd",
+        "🇱🇰 LK 04 - zxdd",
+        "🇱🇰 LK 05 - zxdd",
+        "🇱🇰 LK 06 - zxdd",
+        "🇱🇰 LK 07 - zxdd",
+        "🇱🇰 LK 08 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },

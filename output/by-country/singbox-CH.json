@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇭 CH 01 - zxdd",
+        "🇨🇭 CH 02 - zxdd",
+        "🇨🇭 CH 03 - zxdd",
+        "🇨🇭 CH 04 - zxdd",
+        "🇨🇭 CH 05 - zxdd",
+        "🇨🇭 CH 06 - zxdd",
+        "🇨🇭 CH 07 - zxdd",
+        "🇨🇭 CH 08 - zxdd",
+        "🇨🇭 CH 09 - zxdd"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇭 CH 01 - zxdd",
+        "🇨🇭 CH 02 - zxdd",
+        "🇨🇭 CH 03 - zxdd",
+        "🇨🇭 CH 04 - zxdd",
+        "🇨🇭 CH 05 - zxdd",
+        "🇨🇭 CH 06 - zxdd",
+        "🇨🇭 CH 07 - zxdd",
+        "🇨🇭 CH 08 - zxdd",
+        "🇨🇭 CH 09 - zxdd"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
