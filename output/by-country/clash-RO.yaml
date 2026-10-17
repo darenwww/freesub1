@@ -20,13 +20,6 @@ proxies:
   password: U83u9OGpvSatIUW7LsWffr
   udp: true
 - name: 🇷🇴 RO 03 - zxdd
-  type: ss
-  server: 154.46.31.106
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
-  udp: true
-- name: 🇷🇴 RO 04 - zxdd
   type: vless
   server: edge10.cyrionflare.com
   port: 2052
@@ -34,7 +27,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇷🇴 RO 05 - zxdd
+- name: 🇷🇴 RO 04 - zxdd
   type: vless
   server: edge10.cyrionflare.com
   port: 2052
@@ -51,7 +44,6 @@ proxy-groups:
   - 🇷🇴 RO 02 - zxdd
   - 🇷🇴 RO 03 - zxdd
   - 🇷🇴 RO 04 - zxdd
-  - 🇷🇴 RO 05 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -61,6 +53,5 @@ proxy-groups:
   - 🇷🇴 RO 02 - zxdd
   - 🇷🇴 RO 03 - zxdd
   - 🇷🇴 RO 04 - zxdd
-  - 🇷🇴 RO 05 - zxdd
 rules:
 - MATCH,PROXIES
