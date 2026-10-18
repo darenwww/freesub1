@@ -20,12 +20,13 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇷🇴 RO 03 - zxdd
-  type: ss
-  server: bogging-eyeteeth-fly.freesocks.work
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
+  type: vless
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
   udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇷🇴 RO 04 - zxdd
   type: vless
   server: edge10.cyrionflare.com
@@ -35,18 +36,25 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇷🇴 RO 05 - zxdd
-  type: vless
-  server: edge10.cyrionflare.com
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  type: ss
+  server: 154.46.31.106
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇷🇴 RO 06 - zxdd
   type: vless
   server: roxnsk.color-shop.ir
   port: 8080
   uuid: e3026ffb-cde6-4cfe-b4b7-f76d5264e969
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇷🇴 RO 07 - zxdd
+  type: vless
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
   udp: true
   tls: false
   skip-cert-verify: true
@@ -61,6 +69,7 @@ proxy-groups:
   - 🇷🇴 RO 04 - zxdd
   - 🇷🇴 RO 05 - zxdd
   - 🇷🇴 RO 06 - zxdd
+  - 🇷🇴 RO 07 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -72,5 +81,6 @@ proxy-groups:
   - 🇷🇴 RO 04 - zxdd
   - 🇷🇴 RO 05 - zxdd
   - 🇷🇴 RO 06 - zxdd
+  - 🇷🇴 RO 07 - zxdd
 rules:
 - MATCH,PROXIES
