@@ -6,21 +6,20 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - zxdd
   type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  server: 104.18.35.86
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---mehrosaboran
+    path: /sg-melbi
     headers:
-      Host: lucasjow.us.ci
+      Host: hhlfy.twiladaphne.ndjp.net
 - name: 🌐 其他地区 (Other) 02 - zxdd
   type: vless
-  server: 188.114.98.0
+  server: 104.18.41.190
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -29,7 +28,7 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    path: '%2Fcart%2Fdocs%2Fwww%2Fproxyip%3D108.160.132.132'
     headers:
       Host: lucasjow.us.ci
 - name: 🌐 其他地区 (Other) 03 - zxdd
@@ -43,989 +42,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---V2ray_confiig?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 04 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 05 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 06 - zxdd
-  type: vless
-  server: 172.64.152.241
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 07 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 08 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 09 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--V2ray_confiig?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 10 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 11 - zxdd
-  type: vless
-  server: 104.21.93.182
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 12 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 13 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 14 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 15 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---bored_vpn?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 16 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboranfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 17 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 18 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: T
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 19 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 20 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 21 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 22 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 23 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 24 - zxdd
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 25 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 26 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 27 - zxdd
-  type: vless
-  server: 104.27.124.133
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
-  network: ws
-  ws-opts:
-    path: /api/ws
-    headers:
-      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
-- name: 🌐 其他地区 (Other) 28 - zxdd
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 29 - zxdd
-  type: vless
-  server: 172.67.168.158
-  port: 2087
-  uuid: 1d0e8e53-6999-4752-ac21-c0c54ff5bc09
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vn11vina.210z.dev
-  network: ws
-  ws-opts:
-    path: /vlessvina
-    headers:
-      Host: vn11vina.210z.dev
-- name: 🌐 其他地区 (Other) 30 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '0'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 31 - zxdd
-  type: vless
-  server: 162.159.250.29
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 32 - zxdd
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 33 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyipfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 34 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---TEHRANARGO
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 35 - zxdd
-  type: vless
-  server: 104.21.63.28
-  port: 443
-  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: youxuanku.kdns.fr
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: youxuanku.kdns.fr
-- name: 🌐 其他地区 (Other) 36 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---TEHRANARGO
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 37 - zxdd
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 38 - zxdd
-  type: vless
-  server: 104.26.4.2
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 39 - zxdd
-  type: vless
-  server: 104.18.35.86
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sg-melbi?ed#Telegram---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 40 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 41 - zxdd
-  type: vless
-  server: b2n.ir
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 42 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--i10VPN?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 43 - zxdd
-  type: vless
-  server: 172.64.158.170
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 44 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 45 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?V2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 46 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 47 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 48 - zxdd
-  type: vless
-  server: 172.64.149.65
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-- name: 🌐 其他地区 (Other) 49 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 50 - zxdd
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 51 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 52 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 53 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 54 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: T
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 55 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 56 - zxdd
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 57 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: Tfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 58 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 59 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '3'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 60 - zxdd
-  type: vless
-  server: 172.67.160.192
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nuclear.us.kg
-  network: ws
-  ws-opts:
-    path: /free/1.226.227.169:50001
-    headers:
-      Host: nuclear.us.kg
-- name: 🌐 其他地区 (Other) 61 - zxdd
-  type: vless
-  server: 104.18.37.247
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 62 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 63 - zxdd
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 64 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--v2ray_configs_pools?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 65 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 66 - zxdd
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
     path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 67 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 68 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 69 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---V2ray_confiig?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 70 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 71 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---Vpney
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 72 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 73 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 74 - zxdd
+- name: 🌐 其他地区 (Other) 04 - zxdd
   type: vless
   server: 104.21.71.249
   port: 443
@@ -1039,218 +59,9 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 75 - zxdd
+- name: 🌐 其他地区 (Other) 05 - zxdd
   type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 76 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 77 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 78 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 79 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--V2ray_confiig?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 80 - zxdd
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 81 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 82 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---bored_vpnfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 83 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 84 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---V2ray_confiig?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 85 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 86 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 87 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---DailyConfigs
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 88 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 89 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBSfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 90 - zxdd
-  type: vless
-  server: 172.64.153.153
+  server: 104.18.37.247
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -1259,10 +70,10 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 91 - zxdd
+- name: 🌐 其他地区 (Other) 06 - zxdd
   type: vless
   server: 188.114.97.6
   port: 443
@@ -1276,567 +87,7 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132?ed#
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 92 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 93 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---TEHRANARGOfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 94 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 95 - zxdd
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 96 - zxdd
-  type: vless
-  server: 172.64.156.185
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
-- name: 🌐 其他地区 (Other) 97 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 98 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---TEHRANARGO
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 99 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBS
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 100 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '3'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 101 - zxdd
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 102 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 103 - zxdd
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 104 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 105 - zxdd
-  type: vless
-  server: 172.64.150.18
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
-  network: ws
-  ws-opts:
-    path: /?ed
-    headers:
-      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
-- name: 🌐 其他地区 (Other) 106 - zxdd
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 107 - zxdd
-  type: vless
-  server: 172.64.146.66
-  port: 443
-  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ex3r.qzz.io
-  network: ws
-  ws-opts:
-    path: /sg-orcl
-    headers:
-      Host: ex3r.qzz.io
-- name: 🌐 其他地区 (Other) 108 - zxdd
-  type: vless
-  server: 172.67.160.192
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nuclear.us.kg
-  network: ws
-  ws-opts:
-    path: /free/103.101.153.32:443
-    headers:
-      Host: nuclear.us.kg
-- name: 🌐 其他地区 (Other) 109 - zxdd
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyipfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 110 - zxdd
-  type: vless
-  server: 104.21.14.232
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nuclear.us.kg
-  network: ws
-  ws-opts:
-    path: /free/1.226.227.169:50001
-    headers:
-      Host: nuclear.us.kg
-- name: 🌐 其他地区 (Other) 111 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 112 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 113 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 2096
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: levikoconfig.levikogjgfdd.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🌐 其他地区 (Other) 114 - zxdd
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 115 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 116 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 117 - zxdd
-  type: vless
-  server: 172.64.147.154
-  port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
-- name: 🌐 其他地区 (Other) 118 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2048
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 119 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 120 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 121 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 122 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBSfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 123 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: levikoconfig.levikogjgfdd.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🌐 其他地区 (Other) 124 - zxdd
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 125 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBSfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 126 - zxdd
-  type: vless
-  server: 172.64.146.66
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 127 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🌐 其他地区 (Other) 128 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 129 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 130 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 131 - zxdd
-  type: vless
-  server: 104.18.41.190
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 132 - zxdd
+- name: 🌐 其他地区 (Other) 07 - zxdd
   type: vless
   server: b2n.ir
   port: 443
@@ -1847,10 +98,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 133 - zxdd
+- name: 🌐 其他地区 (Other) 08 - zxdd
   type: vless
   server: 188.114.97.6
   port: 443
@@ -1861,164 +112,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /cart/docs/www/proxyip=108.160.132.132
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 134 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 135 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBSfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 136 - zxdd
-  type: vless
-  server: 104.21.73.135
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
-  network: ws
-  ws-opts:
-    path: /api/ws
-    headers:
-      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
-- name: 🌐 其他地区 (Other) 137 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '3'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 138 - zxdd
-  type: vless
-  server: 172.67.145.14
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
-  network: ws
-  ws-opts:
-    path: /api/ws
-    headers:
-      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
-- name: 🌐 其他地区 (Other) 139 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--v2ray_configs_pools?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 140 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 141 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?@EVAY_VPN
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 142 - zxdd
-  type: vless
-  server: 104.18.47.73
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 143 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?V2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 144 - zxdd
-  type: vless
-  server: 162.159.254.3
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 145 - zxdd
+- name: 🌐 其他地区 (Other) 09 - zxdd
   type: vless
   server: 172.67.172.155
   port: 443
@@ -2032,9 +129,51 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 146 - zxdd
+- name: 🌐 其他地区 (Other) 10 - zxdd
+  type: vmess
+  server: 104.17.147.222
+  port: 80
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🌐 其他地区 (Other) 11 - zxdd
   type: vless
-  server: 188.114.98.0
+  server: 104.16.10.135
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws#/?TELEGRAM--MTMVPN--mtmvpn?ed=512
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 12 - zxdd
+  type: vless
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 13 - zxdd
+  type: vless
+  server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -2043,10 +182,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 147 - zxdd
+- name: 🌐 其他地区 (Other) 14 - zxdd
   type: vless
   server: b2n.ir
   port: 443
@@ -2057,10 +196,24 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 148 - zxdd
+- name: 🌐 其他地区 (Other) 15 - zxdd
+  type: vless
+  server: 104.18.47.73
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 16 - zxdd
   type: vless
   server: 188.114.97.6
   port: 443
@@ -2071,80 +224,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---mehrosaboranfp=chrome
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---DailyConfigs
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 149 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '3'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 150 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 151 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 152 - zxdd
-  type: vless
-  server: 104.27.110.37
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
-  network: ws
-  ws-opts:
-    path: /api/ws
-    headers:
-      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
-- name: 🌐 其他地区 (Other) 153 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 154 - zxdd
+- name: 🌐 其他地区 (Other) 17 - zxdd
   type: vless
   server: 104.18.40.100
   port: 443
@@ -2155,768 +238,12 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 155 - zxdd
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 156 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: Tfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 157 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?@EVAY_VPN
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 158 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
     headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 159 - zxdd
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 18 - zxdd
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 160 - zxdd
-  type: vless
-  server: 104.18.41.190
-  port: 443
-  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ex3r.qzz.io
-  network: ws
-  ws-opts:
-    path: /sg-orcl
-    headers:
-      Host: ex3r.qzz.io
-- name: 🌐 其他地区 (Other) 161 - zxdd
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 162 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 163 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 164 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2048
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 165 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 166 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 167 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboranfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 168 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 169 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---TEHRANARGO
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 170 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 171 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 172 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 173 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 174 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?V2XAY-joinV
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 175 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 176 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 177 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 178 - zxdd
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 179 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 180 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 181 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: 3fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 182 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 183 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--i10VPN?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 184 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 185 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 186 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--V2ray_confiig?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 187 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 188 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 189 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 190 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 191 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 192 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: levikoconfig.levikogjgfdd.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🌐 其他地区 (Other) 193 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---Vpney
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 194 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 195 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---Vpney
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 196 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 197 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---bored_vpnfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 198 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 199 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--i10VPN?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 200 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---TEHRANARGOfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 201 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '%252'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 202 - zxdd
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /+
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 203 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hubfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 204 - zxdd
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 205 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 206 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 207 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 208 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 209 - zxdd
-  type: vless
-  server: 188.114.98.0
+  server: 104.19.4.149
   port: 443
   uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
@@ -2928,77 +255,49 @@ proxies:
     path: /ws
     headers:
       Host: a.cwvps.eu.org
-- name: 🌐 其他地区 (Other) 210 - zxdd
+- name: 🌐 其他地区 (Other) 19 - zxdd
   type: vless
-  server: 188.114.97.6
+  server: 104.24.31.89
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /?Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP?ed=2560
+    path: /tyxyws
     headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 211 - zxdd
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 20 - zxdd
   type: vless
-  server: 104.18.46.60
+  server: 104.16.10.63
   port: 443
-  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /?ed
+    path: /tyxyws
     headers:
-      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
-- name: 🌐 其他地区 (Other) 212 - zxdd
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 21 - zxdd
   type: vless
-  server: 188.114.98.0
+  server: 162.159.192.125
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: a.cwvps.eu.org
   network: ws
   ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hubfp=chrome
+    path: /ws
     headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 213 - zxdd
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 214 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 215 - zxdd
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 22 - zxdd
   type: vless
   server: 188.114.98.0
   port: 443
@@ -3009,9 +308,108 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip
+    path: /cart/docs/www/proxyip=108.160.132.132
     headers:
       Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 23 - zxdd
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132fp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 24 - zxdd
+  type: vless
+  server: 104.18.35.86
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg-melbi?ed#Telegram---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 25 - zxdd
+  type: vless
+  server: 104.21.93.182
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 26 - zxdd
+  type: vless
+  server: 162.159.250.29
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 27 - zxdd
+  type: vless
+  server: 172.64.158.170
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 28 - zxdd
+  type: vless
+  server: 172.64.153.153
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 29 - zxdd
+  type: vmess
+  server: 172.64.80.1
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -3046,192 +444,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 27 - zxdd
   - 🌐 其他地区 (Other) 28 - zxdd
   - 🌐 其他地区 (Other) 29 - zxdd
-  - 🌐 其他地区 (Other) 30 - zxdd
-  - 🌐 其他地区 (Other) 31 - zxdd
-  - 🌐 其他地区 (Other) 32 - zxdd
-  - 🌐 其他地区 (Other) 33 - zxdd
-  - 🌐 其他地区 (Other) 34 - zxdd
-  - 🌐 其他地区 (Other) 35 - zxdd
-  - 🌐 其他地区 (Other) 36 - zxdd
-  - 🌐 其他地区 (Other) 37 - zxdd
-  - 🌐 其他地区 (Other) 38 - zxdd
-  - 🌐 其他地区 (Other) 39 - zxdd
-  - 🌐 其他地区 (Other) 40 - zxdd
-  - 🌐 其他地区 (Other) 41 - zxdd
-  - 🌐 其他地区 (Other) 42 - zxdd
-  - 🌐 其他地区 (Other) 43 - zxdd
-  - 🌐 其他地区 (Other) 44 - zxdd
-  - 🌐 其他地区 (Other) 45 - zxdd
-  - 🌐 其他地区 (Other) 46 - zxdd
-  - 🌐 其他地区 (Other) 47 - zxdd
-  - 🌐 其他地区 (Other) 48 - zxdd
-  - 🌐 其他地区 (Other) 49 - zxdd
-  - 🌐 其他地区 (Other) 50 - zxdd
-  - 🌐 其他地区 (Other) 51 - zxdd
-  - 🌐 其他地区 (Other) 52 - zxdd
-  - 🌐 其他地区 (Other) 53 - zxdd
-  - 🌐 其他地区 (Other) 54 - zxdd
-  - 🌐 其他地区 (Other) 55 - zxdd
-  - 🌐 其他地区 (Other) 56 - zxdd
-  - 🌐 其他地区 (Other) 57 - zxdd
-  - 🌐 其他地区 (Other) 58 - zxdd
-  - 🌐 其他地区 (Other) 59 - zxdd
-  - 🌐 其他地区 (Other) 60 - zxdd
-  - 🌐 其他地区 (Other) 61 - zxdd
-  - 🌐 其他地区 (Other) 62 - zxdd
-  - 🌐 其他地区 (Other) 63 - zxdd
-  - 🌐 其他地区 (Other) 64 - zxdd
-  - 🌐 其他地区 (Other) 65 - zxdd
-  - 🌐 其他地区 (Other) 66 - zxdd
-  - 🌐 其他地区 (Other) 67 - zxdd
-  - 🌐 其他地区 (Other) 68 - zxdd
-  - 🌐 其他地区 (Other) 69 - zxdd
-  - 🌐 其他地区 (Other) 70 - zxdd
-  - 🌐 其他地区 (Other) 71 - zxdd
-  - 🌐 其他地区 (Other) 72 - zxdd
-  - 🌐 其他地区 (Other) 73 - zxdd
-  - 🌐 其他地区 (Other) 74 - zxdd
-  - 🌐 其他地区 (Other) 75 - zxdd
-  - 🌐 其他地区 (Other) 76 - zxdd
-  - 🌐 其他地区 (Other) 77 - zxdd
-  - 🌐 其他地区 (Other) 78 - zxdd
-  - 🌐 其他地区 (Other) 79 - zxdd
-  - 🌐 其他地区 (Other) 80 - zxdd
-  - 🌐 其他地区 (Other) 81 - zxdd
-  - 🌐 其他地区 (Other) 82 - zxdd
-  - 🌐 其他地区 (Other) 83 - zxdd
-  - 🌐 其他地区 (Other) 84 - zxdd
-  - 🌐 其他地区 (Other) 85 - zxdd
-  - 🌐 其他地区 (Other) 86 - zxdd
-  - 🌐 其他地区 (Other) 87 - zxdd
-  - 🌐 其他地区 (Other) 88 - zxdd
-  - 🌐 其他地区 (Other) 89 - zxdd
-  - 🌐 其他地区 (Other) 90 - zxdd
-  - 🌐 其他地区 (Other) 91 - zxdd
-  - 🌐 其他地区 (Other) 92 - zxdd
-  - 🌐 其他地区 (Other) 93 - zxdd
-  - 🌐 其他地区 (Other) 94 - zxdd
-  - 🌐 其他地区 (Other) 95 - zxdd
-  - 🌐 其他地区 (Other) 96 - zxdd
-  - 🌐 其他地区 (Other) 97 - zxdd
-  - 🌐 其他地区 (Other) 98 - zxdd
-  - 🌐 其他地区 (Other) 99 - zxdd
-  - 🌐 其他地区 (Other) 100 - zxdd
-  - 🌐 其他地区 (Other) 101 - zxdd
-  - 🌐 其他地区 (Other) 102 - zxdd
-  - 🌐 其他地区 (Other) 103 - zxdd
-  - 🌐 其他地区 (Other) 104 - zxdd
-  - 🌐 其他地区 (Other) 105 - zxdd
-  - 🌐 其他地区 (Other) 106 - zxdd
-  - 🌐 其他地区 (Other) 107 - zxdd
-  - 🌐 其他地区 (Other) 108 - zxdd
-  - 🌐 其他地区 (Other) 109 - zxdd
-  - 🌐 其他地区 (Other) 110 - zxdd
-  - 🌐 其他地区 (Other) 111 - zxdd
-  - 🌐 其他地区 (Other) 112 - zxdd
-  - 🌐 其他地区 (Other) 113 - zxdd
-  - 🌐 其他地区 (Other) 114 - zxdd
-  - 🌐 其他地区 (Other) 115 - zxdd
-  - 🌐 其他地区 (Other) 116 - zxdd
-  - 🌐 其他地区 (Other) 117 - zxdd
-  - 🌐 其他地区 (Other) 118 - zxdd
-  - 🌐 其他地区 (Other) 119 - zxdd
-  - 🌐 其他地区 (Other) 120 - zxdd
-  - 🌐 其他地区 (Other) 121 - zxdd
-  - 🌐 其他地区 (Other) 122 - zxdd
-  - 🌐 其他地区 (Other) 123 - zxdd
-  - 🌐 其他地区 (Other) 124 - zxdd
-  - 🌐 其他地区 (Other) 125 - zxdd
-  - 🌐 其他地区 (Other) 126 - zxdd
-  - 🌐 其他地区 (Other) 127 - zxdd
-  - 🌐 其他地区 (Other) 128 - zxdd
-  - 🌐 其他地区 (Other) 129 - zxdd
-  - 🌐 其他地区 (Other) 130 - zxdd
-  - 🌐 其他地区 (Other) 131 - zxdd
-  - 🌐 其他地区 (Other) 132 - zxdd
-  - 🌐 其他地区 (Other) 133 - zxdd
-  - 🌐 其他地区 (Other) 134 - zxdd
-  - 🌐 其他地区 (Other) 135 - zxdd
-  - 🌐 其他地区 (Other) 136 - zxdd
-  - 🌐 其他地区 (Other) 137 - zxdd
-  - 🌐 其他地区 (Other) 138 - zxdd
-  - 🌐 其他地区 (Other) 139 - zxdd
-  - 🌐 其他地区 (Other) 140 - zxdd
-  - 🌐 其他地区 (Other) 141 - zxdd
-  - 🌐 其他地区 (Other) 142 - zxdd
-  - 🌐 其他地区 (Other) 143 - zxdd
-  - 🌐 其他地区 (Other) 144 - zxdd
-  - 🌐 其他地区 (Other) 145 - zxdd
-  - 🌐 其他地区 (Other) 146 - zxdd
-  - 🌐 其他地区 (Other) 147 - zxdd
-  - 🌐 其他地区 (Other) 148 - zxdd
-  - 🌐 其他地区 (Other) 149 - zxdd
-  - 🌐 其他地区 (Other) 150 - zxdd
-  - 🌐 其他地区 (Other) 151 - zxdd
-  - 🌐 其他地区 (Other) 152 - zxdd
-  - 🌐 其他地区 (Other) 153 - zxdd
-  - 🌐 其他地区 (Other) 154 - zxdd
-  - 🌐 其他地区 (Other) 155 - zxdd
-  - 🌐 其他地区 (Other) 156 - zxdd
-  - 🌐 其他地区 (Other) 157 - zxdd
-  - 🌐 其他地区 (Other) 158 - zxdd
-  - 🌐 其他地区 (Other) 159 - zxdd
-  - 🌐 其他地区 (Other) 160 - zxdd
-  - 🌐 其他地区 (Other) 161 - zxdd
-  - 🌐 其他地区 (Other) 162 - zxdd
-  - 🌐 其他地区 (Other) 163 - zxdd
-  - 🌐 其他地区 (Other) 164 - zxdd
-  - 🌐 其他地区 (Other) 165 - zxdd
-  - 🌐 其他地区 (Other) 166 - zxdd
-  - 🌐 其他地区 (Other) 167 - zxdd
-  - 🌐 其他地区 (Other) 168 - zxdd
-  - 🌐 其他地区 (Other) 169 - zxdd
-  - 🌐 其他地区 (Other) 170 - zxdd
-  - 🌐 其他地区 (Other) 171 - zxdd
-  - 🌐 其他地区 (Other) 172 - zxdd
-  - 🌐 其他地区 (Other) 173 - zxdd
-  - 🌐 其他地区 (Other) 174 - zxdd
-  - 🌐 其他地区 (Other) 175 - zxdd
-  - 🌐 其他地区 (Other) 176 - zxdd
-  - 🌐 其他地区 (Other) 177 - zxdd
-  - 🌐 其他地区 (Other) 178 - zxdd
-  - 🌐 其他地区 (Other) 179 - zxdd
-  - 🌐 其他地区 (Other) 180 - zxdd
-  - 🌐 其他地区 (Other) 181 - zxdd
-  - 🌐 其他地区 (Other) 182 - zxdd
-  - 🌐 其他地区 (Other) 183 - zxdd
-  - 🌐 其他地区 (Other) 184 - zxdd
-  - 🌐 其他地区 (Other) 185 - zxdd
-  - 🌐 其他地区 (Other) 186 - zxdd
-  - 🌐 其他地区 (Other) 187 - zxdd
-  - 🌐 其他地区 (Other) 188 - zxdd
-  - 🌐 其他地区 (Other) 189 - zxdd
-  - 🌐 其他地区 (Other) 190 - zxdd
-  - 🌐 其他地区 (Other) 191 - zxdd
-  - 🌐 其他地区 (Other) 192 - zxdd
-  - 🌐 其他地区 (Other) 193 - zxdd
-  - 🌐 其他地区 (Other) 194 - zxdd
-  - 🌐 其他地区 (Other) 195 - zxdd
-  - 🌐 其他地区 (Other) 196 - zxdd
-  - 🌐 其他地区 (Other) 197 - zxdd
-  - 🌐 其他地区 (Other) 198 - zxdd
-  - 🌐 其他地区 (Other) 199 - zxdd
-  - 🌐 其他地区 (Other) 200 - zxdd
-  - 🌐 其他地区 (Other) 201 - zxdd
-  - 🌐 其他地区 (Other) 202 - zxdd
-  - 🌐 其他地区 (Other) 203 - zxdd
-  - 🌐 其他地区 (Other) 204 - zxdd
-  - 🌐 其他地区 (Other) 205 - zxdd
-  - 🌐 其他地区 (Other) 206 - zxdd
-  - 🌐 其他地区 (Other) 207 - zxdd
-  - 🌐 其他地区 (Other) 208 - zxdd
-  - 🌐 其他地区 (Other) 209 - zxdd
-  - 🌐 其他地区 (Other) 210 - zxdd
-  - 🌐 其他地区 (Other) 211 - zxdd
-  - 🌐 其他地区 (Other) 212 - zxdd
-  - 🌐 其他地区 (Other) 213 - zxdd
-  - 🌐 其他地区 (Other) 214 - zxdd
-  - 🌐 其他地区 (Other) 215 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -3266,191 +478,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 27 - zxdd
   - 🌐 其他地区 (Other) 28 - zxdd
   - 🌐 其他地区 (Other) 29 - zxdd
-  - 🌐 其他地区 (Other) 30 - zxdd
-  - 🌐 其他地区 (Other) 31 - zxdd
-  - 🌐 其他地区 (Other) 32 - zxdd
-  - 🌐 其他地区 (Other) 33 - zxdd
-  - 🌐 其他地区 (Other) 34 - zxdd
-  - 🌐 其他地区 (Other) 35 - zxdd
-  - 🌐 其他地区 (Other) 36 - zxdd
-  - 🌐 其他地区 (Other) 37 - zxdd
-  - 🌐 其他地区 (Other) 38 - zxdd
-  - 🌐 其他地区 (Other) 39 - zxdd
-  - 🌐 其他地区 (Other) 40 - zxdd
-  - 🌐 其他地区 (Other) 41 - zxdd
-  - 🌐 其他地区 (Other) 42 - zxdd
-  - 🌐 其他地区 (Other) 43 - zxdd
-  - 🌐 其他地区 (Other) 44 - zxdd
-  - 🌐 其他地区 (Other) 45 - zxdd
-  - 🌐 其他地区 (Other) 46 - zxdd
-  - 🌐 其他地区 (Other) 47 - zxdd
-  - 🌐 其他地区 (Other) 48 - zxdd
-  - 🌐 其他地区 (Other) 49 - zxdd
-  - 🌐 其他地区 (Other) 50 - zxdd
-  - 🌐 其他地区 (Other) 51 - zxdd
-  - 🌐 其他地区 (Other) 52 - zxdd
-  - 🌐 其他地区 (Other) 53 - zxdd
-  - 🌐 其他地区 (Other) 54 - zxdd
-  - 🌐 其他地区 (Other) 55 - zxdd
-  - 🌐 其他地区 (Other) 56 - zxdd
-  - 🌐 其他地区 (Other) 57 - zxdd
-  - 🌐 其他地区 (Other) 58 - zxdd
-  - 🌐 其他地区 (Other) 59 - zxdd
-  - 🌐 其他地区 (Other) 60 - zxdd
-  - 🌐 其他地区 (Other) 61 - zxdd
-  - 🌐 其他地区 (Other) 62 - zxdd
-  - 🌐 其他地区 (Other) 63 - zxdd
-  - 🌐 其他地区 (Other) 64 - zxdd
-  - 🌐 其他地区 (Other) 65 - zxdd
-  - 🌐 其他地区 (Other) 66 - zxdd
-  - 🌐 其他地区 (Other) 67 - zxdd
-  - 🌐 其他地区 (Other) 68 - zxdd
-  - 🌐 其他地区 (Other) 69 - zxdd
-  - 🌐 其他地区 (Other) 70 - zxdd
-  - 🌐 其他地区 (Other) 71 - zxdd
-  - 🌐 其他地区 (Other) 72 - zxdd
-  - 🌐 其他地区 (Other) 73 - zxdd
-  - 🌐 其他地区 (Other) 74 - zxdd
-  - 🌐 其他地区 (Other) 75 - zxdd
-  - 🌐 其他地区 (Other) 76 - zxdd
-  - 🌐 其他地区 (Other) 77 - zxdd
-  - 🌐 其他地区 (Other) 78 - zxdd
-  - 🌐 其他地区 (Other) 79 - zxdd
-  - 🌐 其他地区 (Other) 80 - zxdd
-  - 🌐 其他地区 (Other) 81 - zxdd
-  - 🌐 其他地区 (Other) 82 - zxdd
-  - 🌐 其他地区 (Other) 83 - zxdd
-  - 🌐 其他地区 (Other) 84 - zxdd
-  - 🌐 其他地区 (Other) 85 - zxdd
-  - 🌐 其他地区 (Other) 86 - zxdd
-  - 🌐 其他地区 (Other) 87 - zxdd
-  - 🌐 其他地区 (Other) 88 - zxdd
-  - 🌐 其他地区 (Other) 89 - zxdd
-  - 🌐 其他地区 (Other) 90 - zxdd
-  - 🌐 其他地区 (Other) 91 - zxdd
-  - 🌐 其他地区 (Other) 92 - zxdd
-  - 🌐 其他地区 (Other) 93 - zxdd
-  - 🌐 其他地区 (Other) 94 - zxdd
-  - 🌐 其他地区 (Other) 95 - zxdd
-  - 🌐 其他地区 (Other) 96 - zxdd
-  - 🌐 其他地区 (Other) 97 - zxdd
-  - 🌐 其他地区 (Other) 98 - zxdd
-  - 🌐 其他地区 (Other) 99 - zxdd
-  - 🌐 其他地区 (Other) 100 - zxdd
-  - 🌐 其他地区 (Other) 101 - zxdd
-  - 🌐 其他地区 (Other) 102 - zxdd
-  - 🌐 其他地区 (Other) 103 - zxdd
-  - 🌐 其他地区 (Other) 104 - zxdd
-  - 🌐 其他地区 (Other) 105 - zxdd
-  - 🌐 其他地区 (Other) 106 - zxdd
-  - 🌐 其他地区 (Other) 107 - zxdd
-  - 🌐 其他地区 (Other) 108 - zxdd
-  - 🌐 其他地区 (Other) 109 - zxdd
-  - 🌐 其他地区 (Other) 110 - zxdd
-  - 🌐 其他地区 (Other) 111 - zxdd
-  - 🌐 其他地区 (Other) 112 - zxdd
-  - 🌐 其他地区 (Other) 113 - zxdd
-  - 🌐 其他地区 (Other) 114 - zxdd
-  - 🌐 其他地区 (Other) 115 - zxdd
-  - 🌐 其他地区 (Other) 116 - zxdd
-  - 🌐 其他地区 (Other) 117 - zxdd
-  - 🌐 其他地区 (Other) 118 - zxdd
-  - 🌐 其他地区 (Other) 119 - zxdd
-  - 🌐 其他地区 (Other) 120 - zxdd
-  - 🌐 其他地区 (Other) 121 - zxdd
-  - 🌐 其他地区 (Other) 122 - zxdd
-  - 🌐 其他地区 (Other) 123 - zxdd
-  - 🌐 其他地区 (Other) 124 - zxdd
-  - 🌐 其他地区 (Other) 125 - zxdd
-  - 🌐 其他地区 (Other) 126 - zxdd
-  - 🌐 其他地区 (Other) 127 - zxdd
-  - 🌐 其他地区 (Other) 128 - zxdd
-  - 🌐 其他地区 (Other) 129 - zxdd
-  - 🌐 其他地区 (Other) 130 - zxdd
-  - 🌐 其他地区 (Other) 131 - zxdd
-  - 🌐 其他地区 (Other) 132 - zxdd
-  - 🌐 其他地区 (Other) 133 - zxdd
-  - 🌐 其他地区 (Other) 134 - zxdd
-  - 🌐 其他地区 (Other) 135 - zxdd
-  - 🌐 其他地区 (Other) 136 - zxdd
-  - 🌐 其他地区 (Other) 137 - zxdd
-  - 🌐 其他地区 (Other) 138 - zxdd
-  - 🌐 其他地区 (Other) 139 - zxdd
-  - 🌐 其他地区 (Other) 140 - zxdd
-  - 🌐 其他地区 (Other) 141 - zxdd
-  - 🌐 其他地区 (Other) 142 - zxdd
-  - 🌐 其他地区 (Other) 143 - zxdd
-  - 🌐 其他地区 (Other) 144 - zxdd
-  - 🌐 其他地区 (Other) 145 - zxdd
-  - 🌐 其他地区 (Other) 146 - zxdd
-  - 🌐 其他地区 (Other) 147 - zxdd
-  - 🌐 其他地区 (Other) 148 - zxdd
-  - 🌐 其他地区 (Other) 149 - zxdd
-  - 🌐 其他地区 (Other) 150 - zxdd
-  - 🌐 其他地区 (Other) 151 - zxdd
-  - 🌐 其他地区 (Other) 152 - zxdd
-  - 🌐 其他地区 (Other) 153 - zxdd
-  - 🌐 其他地区 (Other) 154 - zxdd
-  - 🌐 其他地区 (Other) 155 - zxdd
-  - 🌐 其他地区 (Other) 156 - zxdd
-  - 🌐 其他地区 (Other) 157 - zxdd
-  - 🌐 其他地区 (Other) 158 - zxdd
-  - 🌐 其他地区 (Other) 159 - zxdd
-  - 🌐 其他地区 (Other) 160 - zxdd
-  - 🌐 其他地区 (Other) 161 - zxdd
-  - 🌐 其他地区 (Other) 162 - zxdd
-  - 🌐 其他地区 (Other) 163 - zxdd
-  - 🌐 其他地区 (Other) 164 - zxdd
-  - 🌐 其他地区 (Other) 165 - zxdd
-  - 🌐 其他地区 (Other) 166 - zxdd
-  - 🌐 其他地区 (Other) 167 - zxdd
-  - 🌐 其他地区 (Other) 168 - zxdd
-  - 🌐 其他地区 (Other) 169 - zxdd
-  - 🌐 其他地区 (Other) 170 - zxdd
-  - 🌐 其他地区 (Other) 171 - zxdd
-  - 🌐 其他地区 (Other) 172 - zxdd
-  - 🌐 其他地区 (Other) 173 - zxdd
-  - 🌐 其他地区 (Other) 174 - zxdd
-  - 🌐 其他地区 (Other) 175 - zxdd
-  - 🌐 其他地区 (Other) 176 - zxdd
-  - 🌐 其他地区 (Other) 177 - zxdd
-  - 🌐 其他地区 (Other) 178 - zxdd
-  - 🌐 其他地区 (Other) 179 - zxdd
-  - 🌐 其他地区 (Other) 180 - zxdd
-  - 🌐 其他地区 (Other) 181 - zxdd
-  - 🌐 其他地区 (Other) 182 - zxdd
-  - 🌐 其他地区 (Other) 183 - zxdd
-  - 🌐 其他地区 (Other) 184 - zxdd
-  - 🌐 其他地区 (Other) 185 - zxdd
-  - 🌐 其他地区 (Other) 186 - zxdd
-  - 🌐 其他地区 (Other) 187 - zxdd
-  - 🌐 其他地区 (Other) 188 - zxdd
-  - 🌐 其他地区 (Other) 189 - zxdd
-  - 🌐 其他地区 (Other) 190 - zxdd
-  - 🌐 其他地区 (Other) 191 - zxdd
-  - 🌐 其他地区 (Other) 192 - zxdd
-  - 🌐 其他地区 (Other) 193 - zxdd
-  - 🌐 其他地区 (Other) 194 - zxdd
-  - 🌐 其他地区 (Other) 195 - zxdd
-  - 🌐 其他地区 (Other) 196 - zxdd
-  - 🌐 其他地区 (Other) 197 - zxdd
-  - 🌐 其他地区 (Other) 198 - zxdd
-  - 🌐 其他地区 (Other) 199 - zxdd
-  - 🌐 其他地区 (Other) 200 - zxdd
-  - 🌐 其他地区 (Other) 201 - zxdd
-  - 🌐 其他地区 (Other) 202 - zxdd
-  - 🌐 其他地区 (Other) 203 - zxdd
-  - 🌐 其他地区 (Other) 204 - zxdd
-  - 🌐 其他地区 (Other) 205 - zxdd
-  - 🌐 其他地区 (Other) 206 - zxdd
-  - 🌐 其他地区 (Other) 207 - zxdd
-  - 🌐 其他地区 (Other) 208 - zxdd
-  - 🌐 其他地区 (Other) 209 - zxdd
-  - 🌐 其他地区 (Other) 210 - zxdd
-  - 🌐 其他地区 (Other) 211 - zxdd
-  - 🌐 其他地区 (Other) 212 - zxdd
-  - 🌐 其他地区 (Other) 213 - zxdd
-  - 🌐 其他地区 (Other) 214 - zxdd
-  - 🌐 其他地区 (Other) 215 - zxdd
 rules:
 - MATCH,PROXIES
