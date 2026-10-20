@@ -12,121 +12,13 @@ proxies:
   password: itzvpn@321
   udp: true
 - name: 🇮🇹 意大利 (Italy) 02 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
-    headers:
-      Host: lucasjow.us.ci
 - name: 🇮🇹 意大利 (Italy) 03 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇮🇹 意大利 (Italy) 04 - zxdd
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇮🇹 意大利 (Italy) 05 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇮🇹 意大利 (Italy) 06 - zxdd
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 意大利 (Italy) 07 - zxdd
-  type: vless
-  server: 57.131.38.163
-  port: 2053
-  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇮🇹 意大利 (Italy) 08 - zxdd
-  type: ss
-  server: 57.131.48.45
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-  udp: true
-- name: 🇮🇹 意大利 (Italy) 09 - zxdd
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 意大利 (Italy) 10 - zxdd
-  type: ss
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 意大利 (Italy) 11 - zxdd
-  type: vless
-  server: 57.131.38.163
-  port: 2053
-  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇮🇹 意大利 (Italy) 12 - zxdd
-  type: ss
-  server: 185.164.175.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇮🇹 意大利 (Italy) 13 - zxdd
   type: vless
   server: 204.216.216.23
   port: 10086
@@ -134,9 +26,23 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇮🇹 意大利 (Italy) 14 - zxdd
+- name: 🇮🇹 意大利 (Italy) 04 - zxdd
   type: ss
-  server: 202.50.253.36
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 意大利 (Italy) 05 - zxdd
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇮🇹 意大利 (Italy) 06 - zxdd
+  type: ss
+  server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -152,14 +58,6 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 04 - zxdd
   - 🇮🇹 意大利 (Italy) 05 - zxdd
   - 🇮🇹 意大利 (Italy) 06 - zxdd
-  - 🇮🇹 意大利 (Italy) 07 - zxdd
-  - 🇮🇹 意大利 (Italy) 08 - zxdd
-  - 🇮🇹 意大利 (Italy) 09 - zxdd
-  - 🇮🇹 意大利 (Italy) 10 - zxdd
-  - 🇮🇹 意大利 (Italy) 11 - zxdd
-  - 🇮🇹 意大利 (Italy) 12 - zxdd
-  - 🇮🇹 意大利 (Italy) 13 - zxdd
-  - 🇮🇹 意大利 (Italy) 14 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -171,13 +69,5 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 04 - zxdd
   - 🇮🇹 意大利 (Italy) 05 - zxdd
   - 🇮🇹 意大利 (Italy) 06 - zxdd
-  - 🇮🇹 意大利 (Italy) 07 - zxdd
-  - 🇮🇹 意大利 (Italy) 08 - zxdd
-  - 🇮🇹 意大利 (Italy) 09 - zxdd
-  - 🇮🇹 意大利 (Italy) 10 - zxdd
-  - 🇮🇹 意大利 (Italy) 11 - zxdd
-  - 🇮🇹 意大利 (Italy) 12 - zxdd
-  - 🇮🇹 意大利 (Italy) 13 - zxdd
-  - 🇮🇹 意大利 (Italy) 14 - zxdd
 rules:
 - MATCH,PROXIES
