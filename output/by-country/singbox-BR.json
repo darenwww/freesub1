@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇧🇷 BR 01 - zxdd",
+        "🇧🇷 BR 02 - zxdd",
+        "🇧🇷 BR 03 - zxdd",
+        "🇧🇷 BR 04 - zxdd",
+        "🇧🇷 BR 05 - zxdd",
+        "🇧🇷 BR 06 - zxdd",
+        "🇧🇷 BR 07 - zxdd",
+        "🇧🇷 BR 08 - zxdd",
+        "🇧🇷 BR 09 - zxdd",
+        "🇧🇷 BR 10 - zxdd",
+        "🇧🇷 BR 11 - zxdd",
+        "🇧🇷 BR 12 - zxdd",
+        "🇧🇷 BR 13 - zxdd",
+        "🇧🇷 BR 14 - zxdd",
+        "🇧🇷 BR 15 - zxdd",
+        "🇧🇷 BR 16 - zxdd",
+        "🇧🇷 BR 17 - zxdd",
+        "🇧🇷 BR 18 - zxdd",
+        "🇧🇷 BR 19 - zxdd",
+        "🇧🇷 BR 20 - zxdd",
+        "🇧🇷 BR 21 - zxdd",
+        "🇧🇷 BR 22 - zxdd",
+        "🇧🇷 BR 23 - zxdd",
+        "🇧🇷 BR 24 - zxdd",
+        "🇧🇷 BR 25 - zxdd",
+        "🇧🇷 BR 26 - zxdd",
+        "🇧🇷 BR 27 - zxdd",
+        "🇧🇷 BR 28 - zxdd",
+        "🇧🇷 BR 29 - zxdd",
+        "🇧🇷 BR 30 - zxdd",
+        "🇧🇷 BR 31 - zxdd",
+        "🇧🇷 BR 32 - zxdd",
+        "🇧🇷 BR 33 - zxdd"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇷 BR 01 - zxdd",
+        "🇧🇷 BR 02 - zxdd",
+        "🇧🇷 BR 03 - zxdd",
+        "🇧🇷 BR 04 - zxdd",
+        "🇧🇷 BR 05 - zxdd",
+        "🇧🇷 BR 06 - zxdd",
+        "🇧🇷 BR 07 - zxdd",
+        "🇧🇷 BR 08 - zxdd",
+        "🇧🇷 BR 09 - zxdd",
+        "🇧🇷 BR 10 - zxdd",
+        "🇧🇷 BR 11 - zxdd",
+        "🇧🇷 BR 12 - zxdd",
+        "🇧🇷 BR 13 - zxdd",
+        "🇧🇷 BR 14 - zxdd",
+        "🇧🇷 BR 15 - zxdd",
+        "🇧🇷 BR 16 - zxdd",
+        "🇧🇷 BR 17 - zxdd",
+        "🇧🇷 BR 18 - zxdd",
+        "🇧🇷 BR 19 - zxdd",
+        "🇧🇷 BR 20 - zxdd",
+        "🇧🇷 BR 21 - zxdd",
+        "🇧🇷 BR 22 - zxdd",
+        "🇧🇷 BR 23 - zxdd",
+        "🇧🇷 BR 24 - zxdd",
+        "🇧🇷 BR 25 - zxdd",
+        "🇧🇷 BR 26 - zxdd",
+        "🇧🇷 BR 27 - zxdd",
+        "🇧🇷 BR 28 - zxdd",
+        "🇧🇷 BR 29 - zxdd",
+        "🇧🇷 BR 30 - zxdd",
+        "🇧🇷 BR 31 - zxdd",
+        "🇧🇷 BR 32 - zxdd",
+        "🇧🇷 BR 33 - zxdd"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
