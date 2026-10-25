@@ -6,16 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇿 CZ 01 - zxdd",
-        "🇨🇿 CZ 02 - zxdd"
+        "🇺🇿 UZ 01 - zxdd",
+        "🇺🇿 UZ 02 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 CZ 01 - zxdd",
-        "🇨🇿 CZ 02 - zxdd"
+        "🇺🇿 UZ 01 - zxdd",
+        "🇺🇿 UZ 02 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },
