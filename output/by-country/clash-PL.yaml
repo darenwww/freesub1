@@ -6,12 +6,18 @@ log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - zxdd
   type: vless
-  server: 5.22.221.127
-  port: 443
-  uuid: 44dfa3a7-f648-4587-819b-e653c0823f28
+  server: tr2.soft10.ir
+  port: 2053
+  uuid: 480b4042-f713-43d7-b24b-b4064c97f841
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: tr2.soft10.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tr2.soft10.ir
 - name: 🇵🇱 PL 02 - zxdd
   type: vless
   server: 5.22.221.127
@@ -22,21 +28,47 @@ proxies:
   skip-cert-verify: true
 - name: 🇵🇱 PL 03 - zxdd
   type: vless
+  server: 5.22.221.127
+  port: 443
+  uuid: 44dfa3a7-f648-4587-819b-e653c0823f28
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇵🇱 PL 04 - zxdd
+  type: vless
+  server: 2.26.6.1
+  port: 2087
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2.26.6.1
+- name: 🇵🇱 PL 05 - zxdd
+  type: vless
+  server: 2.26.6.1
+  port: 2087
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2.26.6.1
+- name: 🇵🇱 PL 06 - zxdd
+  type: vless
   server: site.teslamotor.site
   port: 20001
   uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇵🇱 PL 04 - zxdd
+- name: 🇵🇱 PL 07 - zxdd
   type: vless
-  server: edge10.cyrionflare.com
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  server: site.teslamotor.site
+  port: 20001
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇵🇱 PL 05 - zxdd
+- name: 🇵🇱 PL 08 - zxdd
   type: vless
   server: site.teslamotor.site
   port: 20001
@@ -54,6 +86,9 @@ proxy-groups:
   - 🇵🇱 PL 03 - zxdd
   - 🇵🇱 PL 04 - zxdd
   - 🇵🇱 PL 05 - zxdd
+  - 🇵🇱 PL 06 - zxdd
+  - 🇵🇱 PL 07 - zxdd
+  - 🇵🇱 PL 08 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -64,5 +99,8 @@ proxy-groups:
   - 🇵🇱 PL 03 - zxdd
   - 🇵🇱 PL 04 - zxdd
   - 🇵🇱 PL 05 - zxdd
+  - 🇵🇱 PL 06 - zxdd
+  - 🇵🇱 PL 07 - zxdd
+  - 🇵🇱 PL 08 - zxdd
 rules:
 - MATCH,PROXIES
