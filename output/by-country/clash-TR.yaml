@@ -5,18 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - zxdd
-  type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  type: ss
+  server: location8.cpanel-host10.ir
+  port: 56134
+  cipher: chacha20-ietf-poly1305
+  password: uvKNudV-N8AUCrykPiyznA
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-  servername: www.apple.com
-  client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 02 - zxdd
+  type: ss
+  server: 87.236.166.178
+  port: 56137
+  cipher: chacha20-ietf-poly1305
+  password: uvKNudV-N8AUCrykPiyznA
+  udp: true
+- name: 🇹🇷 土耳其 (Turkey) 03 - zxdd
   type: vless
   server: 155.103.71.142
   port: 443
@@ -30,7 +32,14 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🇹🇷 土耳其 (Turkey) 03 - zxdd
+- name: 🇹🇷 土耳其 (Turkey) 04 - zxdd
+  type: ss
+  server: 87.236.166.49
+  port: 56134
+  cipher: chacha20-ietf-poly1305
+  password: uvKNudV-N8AUCrykPiyznA
+  udp: true
+- name: 🇹🇷 土耳其 (Turkey) 05 - zxdd
   type: vless
   server: 151.241.226.201
   port: 2053
@@ -42,14 +51,7 @@ proxies:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
   servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 04 - zxdd
-  type: ss
-  server: 87.236.166.215
-  port: 56134
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-  udp: true
-- name: 🇹🇷 土耳其 (Turkey) 05 - zxdd
+- name: 🇹🇷 土耳其 (Turkey) 06 - zxdd
   type: vless
   server: 155.103.71.142
   port: 443
@@ -63,6 +65,32 @@ proxies:
     path: /fp=chromefp=chrome
     headers:
       Host: ccc.010304.xyz
+- name: 🇹🇷 土耳其 (Turkey) 07 - zxdd
+  type: ss
+  server: location8.cpanel-host10.ir
+  port: 56134
+  cipher: chacha20-ietf-poly1305
+  password: uvKNudV-N8AUCrykPiyznA
+  udp: true
+- name: 🇹🇷 土耳其 (Turkey) 08 - zxdd
+  type: ss
+  server: 87.236.166.166
+  port: 56137
+  cipher: chacha20-ietf-poly1305
+  password: uvKNudV-N8AUCrykPiyznA
+  udp: true
+- name: 🇹🇷 土耳其 (Turkey) 09 - zxdd
+  type: vless
+  server: 151.241.226.201
+  port: 2053
+  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
+  servername: www.apple.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -73,6 +101,10 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 03 - zxdd
   - 🇹🇷 土耳其 (Turkey) 04 - zxdd
   - 🇹🇷 土耳其 (Turkey) 05 - zxdd
+  - 🇹🇷 土耳其 (Turkey) 06 - zxdd
+  - 🇹🇷 土耳其 (Turkey) 07 - zxdd
+  - 🇹🇷 土耳其 (Turkey) 08 - zxdd
+  - 🇹🇷 土耳其 (Turkey) 09 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -83,5 +115,9 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 03 - zxdd
   - 🇹🇷 土耳其 (Turkey) 04 - zxdd
   - 🇹🇷 土耳其 (Turkey) 05 - zxdd
+  - 🇹🇷 土耳其 (Turkey) 06 - zxdd
+  - 🇹🇷 土耳其 (Turkey) 07 - zxdd
+  - 🇹🇷 土耳其 (Turkey) 08 - zxdd
+  - 🇹🇷 土耳其 (Turkey) 09 - zxdd
 rules:
 - MATCH,PROXIES
