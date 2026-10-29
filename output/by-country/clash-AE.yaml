@@ -19,30 +19,30 @@ proxies:
       Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 02 - zxdd
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 95.174.68.188
+  port: 14430
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /vless
     headers:
-      Host: uae.unixzone.us
+      Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 03 - zxdd
   type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 95.174.68.188
+  port: 14430
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /vless
     headers:
-      Host: uae.unixzone.us
+      Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 04 - zxdd
   type: vless
   server: 95.174.68.188
@@ -58,18 +58,17 @@ proxies:
       Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 05 - zxdd
   type: vless
-  server: 147.78.0.186
-  port: 8443
-  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: free.cndyw.ggff.net
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: free.cndyw.ggff.net
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 06 - zxdd
   type: vless
   server: uae.unixzone.us
@@ -96,162 +95,6 @@ proxies:
     path: /vless
     headers:
       Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 08 - zxdd
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 09 - zxdd
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 10 - zxdd
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 11 - zxdd
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 12 - zxdd
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 13 - zxdd
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 14 - zxdd
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 15 - zxdd
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 16 - zxdd
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 17 - zxdd
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 18 - zxdd
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 19 - zxdd
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
 proxy-groups:
 - name: PROXIES
   type: select
@@ -264,18 +107,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - zxdd
   - 🇦🇪 阿联酋 (UAE) 06 - zxdd
   - 🇦🇪 阿联酋 (UAE) 07 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 08 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 09 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 10 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 11 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 12 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 13 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 14 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 15 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 16 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 17 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 18 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 19 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -288,17 +119,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - zxdd
   - 🇦🇪 阿联酋 (UAE) 06 - zxdd
   - 🇦🇪 阿联酋 (UAE) 07 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 08 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 09 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 10 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 11 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 12 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 13 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 14 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 15 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 16 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 17 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 18 - zxdd
-  - 🇦🇪 阿联酋 (UAE) 19 - zxdd
 rules:
 - MATCH,PROXIES
