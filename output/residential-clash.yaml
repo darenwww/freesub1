@@ -60,6 +60,14 @@ proxies:
     path: /ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
     headers:
       Host: app-6ada5023.deploy.meerasolution.com
+- name: 🇺🇸 美国 (United States) 05 (家宽) - zxdd
+  type: vless
+  server: 169.128.83.4
+  port: 57259
+  uuid: a1962f23-f8f8-412d-f2ce-3361e7b72889
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -69,6 +77,7 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - zxdd
   - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - zxdd
   - 🇮🇳 印度 (India) 04 (家宽) - zxdd
+  - 🇺🇸 美国 (United States) 05 (家宽) - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -78,5 +87,6 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - zxdd
   - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - zxdd
   - 🇮🇳 印度 (India) 04 (家宽) - zxdd
+  - 🇺🇸 美国 (United States) 05 (家宽) - zxdd
 rules:
 - MATCH,PROXIES
