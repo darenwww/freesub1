@@ -6,21 +6,21 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - zxdd
   type: vless
-  server: 104.16.10.48
+  server: 104.24.11.68
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: u.srilankangrill.online
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /
     headers:
-      Host: jp3.yohototo.top
+      Host: u.srilankangrill.online
 - name: 🌐 其他地区 (Other) 02 - zxdd
   type: vless
-  server: 104.27.46.35
+  server: 104.19.48.107
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -34,21 +34,21 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 03 - zxdd
   type: vless
-  server: 172.67.149.199
+  server: 104.27.46.35
   port: 443
-  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: px2.5ibtc.cn
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
+    path: /tyxyws
     headers:
-      Host: px2.5ibtc.cn
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 04 - zxdd
   type: vless
-  server: 104.24.31.89
+  server: 172.67.217.240
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -62,7 +62,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 05 - zxdd
   type: vless
-  server: 104.21.6.186
+  server: 104.19.12.94
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -71,12 +71,12 @@ proxies:
   servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /tyxyws#telegram--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
     headers:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 06 - zxdd
   type: vless
-  server: 104.21.236.63
+  server: 104.16.10.116
   port: 443
   uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
@@ -90,7 +90,7 @@ proxies:
       Host: u.srilankangrill.online
 - name: 🌐 其他地区 (Other) 07 - zxdd
   type: vless
-  server: 104.19.178.244
+  server: 104.21.236.63
   port: 443
   uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
@@ -104,7 +104,7 @@ proxies:
       Host: u.srilankangrill.online
 - name: 🌐 其他地区 (Other) 08 - zxdd
   type: vless
-  server: 172.67.217.240
+  server: 104.16.10.2
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -117,36 +117,6 @@ proxies:
     headers:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 09 - zxdd
-  type: vmess
-  server: 188.114.96.3
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🌐 其他地区 (Other) 10 - zxdd
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 11 - zxdd
   type: vless
   server: 104.21.34.106
   port: 443
@@ -160,23 +130,9 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 12 - zxdd
+- name: 🌐 其他地区 (Other) 10 - zxdd
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 13 - zxdd
-  type: vless
-  server: 104.16.10.10
+  server: 104.16.10.2
   port: 443
   uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
@@ -188,9 +144,51 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
+- name: 🌐 其他地区 (Other) 11 - zxdd
+  type: vless
+  server: 104.16.10.117
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🌐 其他地区 (Other) 12 - zxdd
+  type: vless
+  server: 104.24.11.68
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🌐 其他地区 (Other) 13 - zxdd
+  type: vless
+  server: 104.19.12.94
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws#telegram--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+    headers:
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 14 - zxdd
   type: vless
-  server: 104.16.10.9
+  server: 104.17.210.74
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -204,18 +202,18 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 15 - zxdd
   type: vless
-  server: 104.17.50.227
+  server: 104.16.10.189
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: u.srilankangrill.online
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /
     headers:
-      Host: jp3.yohototo.top
+      Host: u.srilankangrill.online
 - name: 🌐 其他地区 (Other) 16 - zxdd
   type: vless
   server: 104.16.10.233
@@ -232,7 +230,21 @@ proxies:
       Host: u.srilankangrill.online
 - name: 🌐 其他地区 (Other) 17 - zxdd
   type: vless
-  server: 104.18.42.98
+  server: 104.18.26.90
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🌐 其他地区 (Other) 18 - zxdd
+  type: vless
+  server: 104.19.33.25
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -244,7 +256,7 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 18 - zxdd
+- name: 🌐 其他地区 (Other) 19 - zxdd
   type: vless
   server: 104.24.0.184
   port: 443
@@ -258,9 +270,9 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🌐 其他地区 (Other) 19 - zxdd
+- name: 🌐 其他地区 (Other) 20 - zxdd
   type: vless
-  server: 104.16.10.199
+  server: 104.16.10.100
   port: 443
   uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
@@ -272,23 +284,9 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🌐 其他地区 (Other) 20 - zxdd
-  type: vless
-  server: 104.18.42.98
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 21 - zxdd
   type: vless
-  server: 104.18.26.90
+  server: 104.19.178.244
   port: 443
   uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
@@ -302,7 +300,21 @@ proxies:
       Host: u.srilankangrill.online
 - name: 🌐 其他地区 (Other) 22 - zxdd
   type: vless
-  server: 104.21.70.228
+  server: 104.19.32.166
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🌐 其他地区 (Other) 23 - zxdd
+  type: vless
+  server: 188.114.97.6
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -314,7 +326,35 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 23 - zxdd
+- name: 🌐 其他地区 (Other) 24 - zxdd
+  type: vless
+  server: 104.16.10.135
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 25 - zxdd
+  type: vless
+  server: 104.16.156.227
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🌐 其他地区 (Other) 26 - zxdd
   type: vmess
   server: 104.21.91.53
   port: 8443
@@ -330,51 +370,9 @@ proxies:
     path: /lMnsZUN4/
     headers:
       Host: v2ray1.dozapp.xyz
-- name: 🌐 其他地区 (Other) 24 - zxdd
-  type: vless
-  server: 104.16.156.227
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🌐 其他地区 (Other) 25 - zxdd
-  type: vless
-  server: 104.21.70.228
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🌐 其他地区 (Other) 26 - zxdd
-  type: vless
-  server: 104.24.0.1
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 27 - zxdd
   type: vless
-  server: 104.16.10.9
+  server: 104.21.33.59
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -388,7 +386,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 28 - zxdd
   type: vless
-  server: 104.16.10.234
+  server: 104.21.5.75
   port: 443
   uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
@@ -416,7 +414,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 30 - zxdd
   type: vless
-  server: 104.21.5.75
+  server: 104.17.117.137
   port: 443
   uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
@@ -430,35 +428,7 @@ proxies:
       Host: u.srilankangrill.online
 - name: 🌐 其他地区 (Other) 31 - zxdd
   type: vless
-  server: 104.19.12.94
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws#telegram--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 32 - zxdd
-  type: vless
-  server: px2.5ibtc.cn
-  port: 443
-  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: px2.5ibtc.cn
-  network: ws
-  ws-opts:
-    path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
-    headers:
-      Host: px2.5ibtc.cn
-- name: 🌐 其他地区 (Other) 33 - zxdd
-  type: vless
-  server: 104.16.10.135
+  server: 104.24.0.1
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -470,9 +440,37 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 32 - zxdd
+  type: vless
+  server: 104.16.10.9
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 33 - zxdd
+  type: vless
+  server: 104.16.10.10
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
 - name: 🌐 其他地区 (Other) 34 - zxdd
   type: vless
-  server: 104.21.0.87
+  server: 172.67.217.240
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -486,147 +484,21 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 35 - zxdd
   type: vless
-  server: 104.19.12.94
+  server: 104.16.10.198
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: u.srilankangrill.online
   network: ws
   ws-opts:
-    path: /tyxyws#telegram--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+    path: /
     headers:
-      Host: jp3.yohototo.top
+      Host: u.srilankangrill.online
 - name: 🌐 其他地区 (Other) 36 - zxdd
   type: vless
-  server: 104.21.0.87
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 37 - zxdd
-  type: vless
-  server: 104.16.111.102
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 38 - zxdd
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 39 - zxdd
-  type: vless
-  server: 104.16.10.117
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🌐 其他地区 (Other) 40 - zxdd
-  type: vless
-  server: 104.24.11.68
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🌐 其他地区 (Other) 41 - zxdd
-  type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 42 - zxdd
-  type: vless
-  server: 104.16.10.72
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 43 - zxdd
-  type: vless
-  server: 104.16.10.72
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 44 - zxdd
-  type: vless
-  server: 104.18.42.98
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 45 - zxdd
-  type: vless
-  server: 162.159.254.3
+  server: 104.21.219.160
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -679,15 +551,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 34 - zxdd
   - 🌐 其他地区 (Other) 35 - zxdd
   - 🌐 其他地区 (Other) 36 - zxdd
-  - 🌐 其他地区 (Other) 37 - zxdd
-  - 🌐 其他地区 (Other) 38 - zxdd
-  - 🌐 其他地区 (Other) 39 - zxdd
-  - 🌐 其他地区 (Other) 40 - zxdd
-  - 🌐 其他地区 (Other) 41 - zxdd
-  - 🌐 其他地区 (Other) 42 - zxdd
-  - 🌐 其他地区 (Other) 43 - zxdd
-  - 🌐 其他地区 (Other) 44 - zxdd
-  - 🌐 其他地区 (Other) 45 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -729,14 +592,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 34 - zxdd
   - 🌐 其他地区 (Other) 35 - zxdd
   - 🌐 其他地区 (Other) 36 - zxdd
-  - 🌐 其他地区 (Other) 37 - zxdd
-  - 🌐 其他地区 (Other) 38 - zxdd
-  - 🌐 其他地区 (Other) 39 - zxdd
-  - 🌐 其他地区 (Other) 40 - zxdd
-  - 🌐 其他地区 (Other) 41 - zxdd
-  - 🌐 其他地区 (Other) 42 - zxdd
-  - 🌐 其他地区 (Other) 43 - zxdd
-  - 🌐 其他地区 (Other) 44 - zxdd
-  - 🌐 其他地区 (Other) 45 - zxdd
 rules:
 - MATCH,PROXIES
