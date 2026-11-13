@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇰🇷 韩国 (South Korea) 02 - zxdd
   type: vless
   server: 151.245.106.49
@@ -30,19 +30,70 @@ proxies:
   client-fingerprint: random
 - name: 🇰🇷 韩国 (South Korea) 03 - zxdd
   type: vless
-  server: 64.110.79.66
-  port: 8443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: fs.qicai99.com
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /
     headers:
-      Host: fs.qicai99.com
+      Host: 152.69.226.63
 - name: 🇰🇷 韩国 (South Korea) 04 - zxdd
+  type: vless
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.69.226.63
+- name: 🇰🇷 韩国 (South Korea) 05 - zxdd
+  type: vless
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.69.226.63
+- name: 🇰🇷 韩国 (South Korea) 06 - zxdd
+  type: vless
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.69.226.63
+- name: 🇰🇷 韩国 (South Korea) 07 - zxdd
+  type: vless
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.69.226.63
+- name: 🇰🇷 韩国 (South Korea) 08 - zxdd
   type: vless
   server: 151.245.106.49
   port: 2053
@@ -53,7 +104,20 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: firefox
+- name: 🇰🇷 韩国 (South Korea) 09 - zxdd
+  type: vless
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.69.226.63
 proxy-groups:
 - name: PROXIES
   type: select
@@ -63,6 +127,11 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 02 - zxdd
   - 🇰🇷 韩国 (South Korea) 03 - zxdd
   - 🇰🇷 韩国 (South Korea) 04 - zxdd
+  - 🇰🇷 韩国 (South Korea) 05 - zxdd
+  - 🇰🇷 韩国 (South Korea) 06 - zxdd
+  - 🇰🇷 韩国 (South Korea) 07 - zxdd
+  - 🇰🇷 韩国 (South Korea) 08 - zxdd
+  - 🇰🇷 韩国 (South Korea) 09 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -72,5 +141,10 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 02 - zxdd
   - 🇰🇷 韩国 (South Korea) 03 - zxdd
   - 🇰🇷 韩国 (South Korea) 04 - zxdd
+  - 🇰🇷 韩国 (South Korea) 05 - zxdd
+  - 🇰🇷 韩国 (South Korea) 06 - zxdd
+  - 🇰🇷 韩国 (South Korea) 07 - zxdd
+  - 🇰🇷 韩国 (South Korea) 08 - zxdd
+  - 🇰🇷 韩国 (South Korea) 09 - zxdd
 rules:
 - MATCH,PROXIES
