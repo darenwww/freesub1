@@ -19,28 +19,6 @@ proxies:
   password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
   udp: true
 - name: 🇦🇹 AT 03 - zxdd
-  type: vmess
-  server: 154.47.19.225
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xmfhlpy.com
-- name: 🇦🇹 AT 04 - zxdd
-  type: vmess
-  server: 154.47.19.225
-  port: 1270
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇦🇹 AT 05 - zxdd
   type: ss
   server: 82.110.60.9
   port: 19999
@@ -55,8 +33,6 @@ proxy-groups:
   - 🇦🇹 AT 01 - zxdd
   - 🇦🇹 AT 02 - zxdd
   - 🇦🇹 AT 03 - zxdd
-  - 🇦🇹 AT 04 - zxdd
-  - 🇦🇹 AT 05 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -65,7 +41,5 @@ proxy-groups:
   - 🇦🇹 AT 01 - zxdd
   - 🇦🇹 AT 02 - zxdd
   - 🇦🇹 AT 03 - zxdd
-  - 🇦🇹 AT 04 - zxdd
-  - 🇦🇹 AT 05 - zxdd
 rules:
 - MATCH,PROXIES
