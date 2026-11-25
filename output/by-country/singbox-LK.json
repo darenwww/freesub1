@@ -6,14 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 - zxdd"
+        "🇱🇰 LK 01 - zxdd",
+        "🇱🇰 LK 02 - zxdd",
+        "🇱🇰 LK 03 - zxdd",
+        "🇱🇰 LK 04 - zxdd",
+        "🇱🇰 LK 05 - zxdd"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 - zxdd"
+        "🇱🇰 LK 01 - zxdd",
+        "🇱🇰 LK 02 - zxdd",
+        "🇱🇰 LK 03 - zxdd",
+        "🇱🇰 LK 04 - zxdd",
+        "🇱🇰 LK 05 - zxdd"
       ],
       "url": "https://www.google.com/generate_204"
     },
