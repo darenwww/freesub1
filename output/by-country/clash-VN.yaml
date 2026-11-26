@@ -4,31 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇱 PL 01 - zxdd
+- name: 🇻🇳 VN 01 - zxdd
   type: vless
-  server: 46.243.232.149
-  port: 443
-  uuid: b432a23a-acff-425c-bf69-70480cd6ed09
+  server: 150.95.109.109
+  port: 2086
+  uuid: b83faafc-cbb7-4655-99d4-2c4c39a49d1b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: devcdn.icu
-  network: ws
-  ws-opts:
-    path: /edge/chunk/b2265efffa29/
-    headers:
-      Host: devcdn.icu
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇵🇱 PL 01 - zxdd
+  - 🇻🇳 VN 01 - zxdd
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇱 PL 01 - zxdd
+  - 🇻🇳 VN 01 - zxdd
 rules:
 - MATCH,PROXIES
